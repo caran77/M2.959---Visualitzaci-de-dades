@@ -1,0 +1,104 @@
+---
+title: "PAC1"
+author: "Carlos A. García"
+date: "October 14, 2019"
+output: pdf_document
+header-includes:
+  \usepackage{float}
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+\graphicspath{ {./img/} }
+
+# Part 1
+
+## Títol que descrigui la visualització seleccionada
+
+Galaxy of Covers
+
+## Descripció detallada de la mateixa (aproximadament 100 paraules).
+
+A música, un cover és una versió d'una cançó ja existent. A aquesta web es mostren en forma de galàxies cançons versionades, especificant: l'estil musical de la cançó, la seva popularitat, el ritme (tempo), etc.
+
+## Criteris de cerca o paraules clau usats per a trobar i/o descriure la visualització.
+
+Music, songs, covers, galaxy
+
+## Enllaç a la pàgina o pàgines on es troba la visualització
+
+https://galaxy-of-covers.interactivethings.io/
+
+## Captures de pantalla amb peu de foto que permetin fer-se una idea de la visualització (màxim 4 imatges).
+
+
+\begin{figure}[H]
+\centering
+\includegraphics{Capture1.jpg}
+\caption{A aquesta imatge es poden veure dos exemples de cançons. La popularitat de la versió determina el tamany del planeta; el tempo, la velotitat a la que es mou; l'actitut, la forma de l'òrbita.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics{Capture2.jpg}
+\caption{Si naveguem sobre "Hey Joe", tenim una sèrie de dades resum: distribució per anys i percentatge de versions per estil; a més, podem veure a simple vista quan s'han fet les versions més populars (planetes més grans), amb més energia (més alt), etc.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics{Capture3.jpg}
+\caption{Com era d'esperar, la versió més popular és la de Jimi Hendrix. Aquí s'indica el tempo, l'actitut, ...}
+\end{figure}
+
+
+## Justificació de caràcter personal dels motius per a haver triat aquesta visualització
+
+He triat aquesta representació perquè:
+\begin{itemize}
+\item M’interessa el tema.
+\item És molt original. Crear un planeta a partir de cada versió permet jugar amb vàries variables. Altres visualitzacions sobre temes que m’interessen són més convencionals (grafs per a representar pel·lícules, per exemple).
+\item S’ajusta als principis de disseny desitjables a una bona visualització.
+\item És ampliable: aquest esquema de representació se pot aplicar a qualsevol cançó, però també a qualsevol tema adaptant el significat de les variables. Per exemple una galàxia pot ser un director de cinema i els planetes les pel·lícules, especificant la taquilla, el nombre de premis, l’any, etc.
+\end{itemize}
+
+## Llistat d'elements presents en la visualització i la seva relació amb els conceptes clau de la guia de lectura: antecedents històrics, tipus de dades visualitzades, grau d'interactivitat, etc. I raons ben argumentades de per què és un bon exemple de visualització de dades.
+
+Seguint els elements definits per Alan Blackwell al seu article "Visual Representation", podem trobar:
+\begin{enumerate}
+\item Text. El nom de la cançó es un text, així com el detall del elements mostrats (nom de la banda, valors numèrics associats a la versió, ...)
+\end{enumerate}
+
+
+
+## Altres referències bibliogràfiques i enllaços consultats relacionats amb principis i bones pràctiques de visualització de dades.
+
+# Part 2
+
+## Dades sobre la visualització: 
+
+\begin{enumerate}
+\item Nom: Así se han movido las encuestas electorales tras lo sucedido en Cataluña
+\item Data: 22/10/2019
+\item Mitjà de comunicació: https://elpais.com
+\item Enllaç: https://elpais.com/politica/2019/10/21/actualidad/1571676880\_382528.html
+\end{enumerate}
+
+Captures de la web:
+
+\begin{figure}[H]
+\centering
+\includegraphics{Capture4.jpg}
+\caption{Podem veure com la pregunta que planteja el titular no té cap relació amb la gràfica}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics{Capture5.jpg}
+\caption{Gràfiques mirall que no faciliten la comparació}
+\end{figure}
+
+Una descripció de la pregunta que "contesta" la visualització. Per exemple: "Com evoluciona la taxa d'atur juvenil a Espanya?", és la pregunta que contesta el següent gràfic:
+
+Una descripció de no més d'una pàgina (per a cada visualització) justificant per què es considera que es tracta d'una mala visualització de dades. S'ha de raonar de forma justificada quins principis no compleix i per què. Entre altres, s'ha d'incloure si la visualització aconsegueix respondre o no a la pregunta que es fa en el títol i perquè.
+
+Realitzar un proposta de redissenyo
