@@ -17,9 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Galaxy of Covers
 
-## Descripció detallada de la mateixa (aproximadament 100 paraules).
+## Descripció detallada de la mateixa
 
-A música, un cover és una versió d'una cançó ja existent. A aquesta web es mostren en forma de galàxies cançons versionades, especificant: l'estil musical de la cançó, la seva popularitat, el ritme (tempo), etc.
+A música, un cover és una \textbf{versió d'una cançó ja existent}. A aquesta web es mostren en forma de galàxies\footnote{Parlem de galàxies per seguir la convenció del títol de l'article. Evidentment, són sistemes solars, no galàxies} cançons versionades. Cada cançó és una galàxia i cada versió és un planeta. Aquest sistema de visualització permet mopstrar l'estil musical de la cançó, la seva popularitat, el ritme (tempo), etc. 
 
 ## Criteris de cerca o paraules clau usats per a trobar i/o descriure la visualització.
 
@@ -47,7 +47,7 @@ https://galaxy-of-covers.interactivethings.io/
 \begin{figure}[H]
 \centering
 \includegraphics{Capture3.jpg}
-\caption{Com era d'esperar, la versió més popular és la de Jimi Hendrix. Aquí s'indica el tempo, l'actitut, ...}
+\caption{Com era d'esperar, la versió més popular és la de Jimi Hendrix. Aquí s'indica el tempo, indicador de l'actitut, ...}
 \end{figure}
 
 
@@ -55,35 +55,44 @@ https://galaxy-of-covers.interactivethings.io/
 
 He triat aquesta representació perquè:
 \begin{itemize}
-\item M’interessa el tema.
-\item És molt original. Crear un planeta a partir de cada versió permet jugar amb vàries variables. Altres visualitzacions sobre temes que m’interessen són més convencionals (grafs per a representar pel·lícules, per exemple).
-\item S’ajusta als principis de disseny desitjables a una bona visualització.
-\item És ampliable: aquest esquema de representació se pot aplicar a qualsevol cançó, però també a qualsevol tema adaptant el significat de les variables. Per exemple una galàxia pot ser un director de cinema i els planetes les pel·lícules, especificant la taquilla, el nombre de premis, l’any, etc.
+\item \textbf{M’interessa el tema}  i el tracta de forma intuïtiva.
+\item \textbf{És molt original.} Crear un planeta a partir de cada versió \textbf{permet jugar amb vàries variables}. Altres visualitzacions sobre temes que m’interessen són més convencionals (grafs per a representar pel·lícules, per exemple).
+\item \textbf{S’ajusta als principis de disseny desitjables a una bona visualització.}
+\item \textbf{És ampliable:} aquest esquema de representació se pot aplicar a qualsevol cançó, però també a qualsevol tema adaptant el significat de les variables. Per exemple una galàxia pot ser un director de cinema i els planetes les pel·lícules, especificant la taquilla, el nombre de premis, l’any, etc. Un altre exemple pot ser una galàxia formada pels pobles de Mallorca, on cada planeta és ún poble, el seu tamany se correspon amb el nombre d'habitants, el radi la distància amb Palma, la velocitat l'IRPF mitjà, etc.
 \end{itemize}
 
 ## Llistat d'elements presents en la visualització i la seva relació amb els conceptes clau de la guia de lectura: antecedents històrics, tipus de dades visualitzades, grau d'interactivitat, etc. I raons ben argumentades de per què és un bon exemple de visualització de dades.
 
-Seguint els elements definits per Alan Blackwell al seu article "Visual Representation", podem trobar:
+Seguint els elements definits per \textbf{Alan Blackwell} al seu article \textbf{"Visual Representation\footnote{https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/visual-representation}"}, podem trobar:
 \begin{enumerate}
-\item Text. El nom de la cançó es un text, així com el detall del elements mostrats (nom de la banda, valors numèrics associats a la versió, ...)
+\item \textbf{Text.} El nom de la cançó es un text, així com el detall del elements mostrats (nom de la banda, valors numèrics associats a la versió, etc.). La tipografia és neta i clara; el blanc sobre negre contrasta bé, malgrat no sigui una bona opció per a imprimir. 
+\item \textbf{Mapes i diagrames.} En aquets cas, l'abstracció és molt clara: els diagrames representant els planetes tenen milers d'anys\footnote{https://hyperallergic.com/361145/nebra-sky-disk/}. La representació heliocèntrica actualment coneguda data del segle XVI\footnote{https://en.wikipedia.org/wiki/Copernican\_Revolution}. Aquí la relació entre elements és pot fer per diferents factors: tamany, color, etc. És a dir: si ens agrada una versió, podem localitzar fàcilment una altra similar.
+\item \textbf{Imatges.} No hi ha imatges, icones, logotips, etc. 
 \end{enumerate}
 
+Seguint la definició de Manovich\footnote{https://www.youtube.com/watch?v=vzOS4u3iyYA}, una visualització és "una transformació de dades quantificades no visuals en una representació visual [d’aquestes dades]". Segons el meu criteri, la principal virtut d'aquesta representació és la de trobar conceptes numèrics per tal de representar la versió (per exemple, el ritme). No acab d'estar d'acord amb aquesta afirmació d'en Manovich, ja que existeixen conceptes no numèrics que són representats: estil musical com a color, per exemple. Aquesta gràfica segueix el segon principi de Manovich, utilitzant posició, grandària, topologia, geometria, etc. És evident que, per context antropològic, la represèntació en forma de planetes ens resulta especialment agradable.
 
+Segueix la màxima de Shneiderman: "Overview first, zoom and filter, then details-on-demand". A primera vista es pot veure quin és el nivell de cada cançó. La podem seleccionar per a veure el detall i, dins d'aquesta, seleccionar cada versió. 
+
+Per resumir, seguint les teories de Stephen Few\footnote{https://www.youtube.com/watch?v=IHHPO4VhucY}, es tradueixen una sèrie de idees abstractes en un conjunt d'atributs físict. L'idea abstracta d'estil es tradueix en color, per exemple.
 
 ## Altres referències bibliogràfiques i enllaços consultats relacionats amb principis i bones pràctiques de visualització de dades.
+He intentat referenciar a cada punt les dades consultades (afegint les pròpies de l'assignatura).
+
+\newpage
 
 # Part 2
 
 ## Dades sobre la visualització: 
 
 \begin{enumerate}
-\item Nom: Así se han movido las encuestas electorales tras lo sucedido en Cataluña
-\item Data: 22/10/2019
-\item Mitjà de comunicació: https://elpais.com
-\item Enllaç: https://elpais.com/politica/2019/10/21/actualidad/1571676880\_382528.html
+\item \textbf{Nom:} Así se han movido las encuestas electorales tras lo sucedido en Cataluña
+\item \textbf{Data:} 22/10/2019
+\item \textbf{Mitjà de comunicació:} https://elpais.com
+\item \textbf{Enllaç:} https://elpais.com/politica/2019/10/21/actualidad/1571676880\_382528.html
 \end{enumerate}
 
-Captures de la web:
+## Captures de la web:
 
 \begin{figure}[H]
 \centering
@@ -95,10 +104,57 @@ Captures de la web:
 \centering
 \includegraphics{Capture5.jpg}
 \caption{Gràfiques mirall que no faciliten la comparació}
+\label{fig:invertit}
 \end{figure}
 
-Una descripció de la pregunta que "contesta" la visualització. Per exemple: "Com evoluciona la taxa d'atur juvenil a Espanya?", és la pregunta que contesta el següent gràfic:
+La gràfica que hauria de respondre a la pregunta \textit{"Com està influint el que està passant a Catalunya a l'intenció de vot per a les pròximes eleccions generals de dia 10/11/2019"} és:
 
-Una descripció de no més d'una pàgina (per a cada visualització) justificant per què es considera que es tracta d'una mala visualització de dades. S'ha de raonar de forma justificada quins principis no compleix i per què. Entre altres, s'ha d'incloure si la visualització aconsegueix respondre o no a la pregunta que es fa en el títol i perquè.
+\begin{figure}[H]
+\centering
+\includegraphics{Capture6.jpg}
+\end{figure}
 
-Realitzar un proposta de redissenyo
+## Quins principis no compleix:
+\begin{enumerate}
+\item \textbf{No respon a la pregunta plantejada.} A la gràfica no hi ha marcada cap fita que permeti validar l'evolució de la intenció de vot amb cap data rellevant; només es veu l'evolució eleccions d'abril - enquestes actuals.
+\item \textbf{El titular no té cap sentit.} Sobreentén que només \textit{"lo sucedido en Cataluña"} afecta a la intenció de vot, sense tenir en compte fets rellevants (el no pacte de formació de Govern, el bot nacional d'un nou partit, etc.). De fet, així se reconeix al mateix article, on es diu literalment \textit{"En este cambio es probable que esté influyendo Cataluña"}. L'única forma de respondre al titular és eliminant la influència dels altres fets.
+\item \textbf{A la gràfica veiem puntets que no sabem amb qué es corresponen.} A un altre diari (El Mundo) s'explica perfectament el que significa cada puntet (resultat de cada enquesta dels diferents mitjans). A més, és interactiva i sí marca les fites:
+\begin{figure}[H]
+\centering
+\includegraphics{Capture7.jpg}
+\caption{Font: https://www.elmundo.es/espana/2019/10/22/5dae018bfdddff17ab8b4626.html}
+\end{figure}
+\item \textbf{Els valors de l'esquerra (eleccions d'abril) es solapen visualment:}
+\begin{figure}[H]
+\centering
+\includegraphics{Capture8.jpg}
+\end{figure}
+\end{enumerate}
+
+Menció apart mereix \ref{fig:invertit}. És una gràfica de tipus "mirall". A primera vista sembla que la tendència de les dretes (línia blava) és la contrària a la que és (com més baixa la línia, més elevada és la intenció de vot i viceversa). És un exemple molt clàssic d'error de disseny\footnote{https://www.vox.com/2018/5/30/17380096/fox-news-alternate-reality-charts}.
+
+## Proposta de redisseny
+
+Podem veure unes propostes molt convencionals i efectives a "La Vanguardia\footnote{https://www.lavanguardia.com/politica/20191006/47815681435/encuesta-elecciones-10n-mas-pais.html}". En veuen les clàssiques gràfiques:
+\begin{figure}[H]
+\centering
+\includegraphics{Capture9.jpg}
+\end{figure}
+
+Una proposta molt més interessant i innovadora és la ja indicada de "El Mundo\footnote{https://www.elmundo.es/espana/2019/10/22/5dae018bfdddff17ab8b4626.html}". Permet:
+\begin{enumerate}
+\item \textbf{Filtrar per empresa d'enquestes}. Permet seleccionar qualsevol enquesta de qualsevol mitjà de comunicació.
+\item \textbf{Es pot seleccionar qualsevol enquesta} de qualsevol mitjà en qualsevol instant.
+\item \textbf{Es mostren les principals fites temporals} com la moció de censura al PP o les eleccions Andaluses.
+\item \textbf{La tipofrafia és neta, clara i llegible.}
+\item \textbf{Es mostra, per a cada dada, la diferència} respecte a les eleccions d'abril.
+\end{enumerate}
+
+Com a proposta innovadora proposaria la visualització en forma de galàxia on:
+\begin{enumerate}
+\item \textbf{Hi hauria una galàxia} per a cada enquesta i instant temporal. 
+\item \textbf{Cada planeta tendria un color,} seguint les convencions ja conegudes (vermell el PSOE, blau el PP, etc.)
+\item \textbf{El tamany del planeta és correspondria amb el nombre d'escons.} 
+\item \textbf{La velocitat de moviment pot ser la diferència amb les eleccions d'abril,} on reduïr els vots significa diferència negativa. 
+\item \textbf{La distància al centre} es pot correspondre amb el nombre de vots; una altra proposta seria la diferència en escons per a arribar a majoria absoluta.
+\end{enumerate}
