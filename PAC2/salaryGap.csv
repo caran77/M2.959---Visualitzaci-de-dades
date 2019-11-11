@@ -1,0 +1,380 @@
+﻿Occupation,Category,Women average annual salary ($),Men average annual salary ($),Pay gap ($),Pay gap as a percentage,Country,Currency
+admin & organisation,admin & organisation,41740,51328,9588,0.2102,US,USD
+HR managers,admin & organisation,67600,95004,27404,0.4054,US,USD
+Production clerks,admin & organisation,38376,53248,14872,0.3875,US,USD
+Human resources,admin & organisation,47424,65364,17940,0.3783,US,USD
+Admin,admin & organisation,35984,45656,9672,0.2688,US,USD
+Accountants,admin & organisation,51948,64272,12324,0.2372,US,USD
+Education admin,admin & organisation,60892,74828,13936,0.2289,US,USD
+Secretaries,admin & organisation,35620,42172,6552,0.1839,US,USD
+Receptionists,admin & organisation,27664,32032,4368,0.1579,US,USD
+Property managers,admin & organisation,44980,50752,5772,0.1283,US,USD
+Accounting,admin & organisation,34320,38064,3744,0.1091,US,USD
+Admin,admin & organisation,33124,36452,3328,0.1005,US,USD
+Data entry keyers,admin & organisation,32136,34996,2860,0.089,US,USD
+Office clerks,admin & organisation,32552,34424,1872,0.0575,US,USD
+Care & education,care & education,43937,53210,9273,0.2017,US,USD
+Doctors & surgeons,care & education,64792,104104,39312,0.6067,US,USD
+Teachers & instructors,care & education,40144,56992,16848,0.4197,US,USD
+Personal care,care & education,23660,31564,7904,0.3341,US,USD
+Healthcare,care & education,51116,65312,14196,0.2777,US,USD
+Education,care & education,46644,59332,12688,0.272,US,USD
+Postsecondary,care & education,59436,73268,13832,0.2327,US,USD
+Teacher assistants,care & education,25688,30160,4472,0.1741,US,USD
+Social services,care & education,50856,59384,8528,0.1677,US,USD
+Pre-secondary,care & education,49712,56992,7280,0.1464,US,USD
+Healthcare support,care & education,25584,29120,3536,0.1382,US,USD
+Nursing,care & education,24232,27456,3224,0.133,US,USD
+Physical therapists,care & education,67964,76856,8892,0.1308,US,USD
+Secondary school,care & education,51168,57616,6448,0.126,US,USD
+Emergency medical,care & education,36868,41132,4264,0.1157,US,USD
+Nursing managers,care & education,55952,61880,5928,0.1059,US,USD
+Personal care aides,care & education,22100,24180,2080,0.0941,US,USD
+Special education,care & education,51324,56056,4732,0.0922,US,USD
+Social workers,care & education,43628,46384,2756,0.0632,US,USD
+Creative & media,creative & media,46280,57009,10729,0.2311,US,USD
+Web developers,creative & media,51376,64740,13364,0.2601,US,USD
+Designers,creative & media,42224,53040,10816,0.2562,US,USD
+Arts & media,creative & media,45240,53248,8008,0.177,US,USD
+Law & justice,law & justice,31601,40444,8843,0.2622,US,USD
+Legal occupations,law & justice,52052,91780,39728,0.7632,US,USD
+Protective services,law & justice,32084,46072,13988,0.436,US,USD
+Police officers,law & justice,38636,54236,15600,0.4038,US,USD
+Lawyers,law & justice,82680,99580,16900,0.2044,US,USD
+Security,law & justice,26728,30628,3900,0.1459,US,USD
+Bailiffs & jailers,law & justice,35724,39260,3536,0.099,US,USD
+Traffic clerks,law & justice,29952,31356,1404,0.0469,US,USD
+Manual Work,manual work,24632,30462,5829,0.2382,US,USD
+Construction,manual work,26468,39728,13260,0.501,US,USD
+Production workers,manual work,25584,35152,9568,0.374,US,USD
+Metal workers,manual work,26572,33644,7072,0.2661,US,USD
+Grounds maintenance,manual work,21476,26884,5408,0.2518,US,USD
+Farming & fishing,manual work,19500,23764,4264,0.2187,US,USD
+Farmers,manual work,19188,22724,3536,0.1843,US,USD
+Electrical workers,manual work,26312,31096,4784,0.1818,US,USD
+Packers,manual work,20540,23868,3328,0.162,US,USD
+Laborers,manual work,24752,28392,3640,0.1471,US,USD
+Construction,manual work,35932,39364,3432,0.0955,US,USD
+Sales & serving others,sales & serving others,35021,42699,7678,0.2155,US,USD
+Sales,sales & serving others,29640,43732,14092,0.4754,US,USD
+Domestic supervisors,sales & serving others,26000,37440,11440,0.44,US,USD
+Retail salespersons,sales & serving others,25532,36296,10764,0.4216,US,USD
+Marketing & sales,sales & serving others,59800,84448,24648,0.4122,US,USD
+Bartenders,sales & serving others,23868,32968,9100,0.3813,US,USD
+Recreation & fitness,sales & serving others,27092,37232,10140,0.3743,US,USD
+Real estate,sales & serving others,37752,51532,13780,0.365,US,USD
+Drivers,sales & serving others,28340,38428,10088,0.356,US,USD
+Insurance sales,sales & serving others,36296,49192,12896,0.3553,US,USD
+Food service manager,sales & serving others,30940,41912,10972,0.3546,US,USD
+Training,sales & serving others,49660,66560,16900,0.3403,US,USD
+Retail supervisors,sales & serving others,30940,41236,10296,0.3328,US,USD
+Clergy,sales & serving others,39676,52364,12688,0.3198,US,USD
+Janitors,sales & serving others,21580,28080,6500,0.3012,US,USD
+Credit counselors,sales & serving others,47580,61776,14196,0.2984,US,USD
+Retail sales,sales & serving others,39832,51272,11440,0.2872,US,USD
+Wholesale reps,sales & serving others,45396,58240,12844,0.2829,US,USD
+Service occupations,sales & serving others,23972,30316,6344,0.2646,US,USD
+Transportation,sales & serving others,43472,52728,9256,0.2129,US,USD
+Waiters & bartenders,sales & serving others,21840,26468,4628,0.2119,US,USD
+Waiters & waitresses,sales & serving others,21580,26052,4472,0.2072,US,USD
+Postal service,sales & serving others,44252,53300,9048,0.2045,US,USD
+Claims adjusters,sales & serving others,47216,56836,9620,0.2037,US,USD
+Wholesale buyers,sales & serving others,41912,50440,8528,0.2035,US,USD
+Catering supervisors,sales & serving others,25220,30316,5096,0.2021,US,USD
+Advertising sales,sales & serving others,45292,54132,8840,0.1952,US,USD
+Butchers,sales & serving others,23764,27924,4160,0.1751,US,USD
+Purchasers,sales & serving others,46644,54808,8164,0.175,US,USD
+Customer services,sales & serving others,31512,36296,4784,0.1518,US,USD
+Pharmacists,sales & serving others,98904,113152,14248,0.1441,US,USD
+Sales supervisors,sales & serving others,45656,52208,6552,0.1435,US,USD
+Dispatchers,sales & serving others,34788,39728,4940,0.142,US,USD
+Chefs & head cooks,sales & serving others,27612,31252,3640,0.1318,US,USD
+Insurance clerks,sales & serving others,32864,36868,4004,0.1218,US,USD
+Bakers,sales & serving others,24388,26936,2548,0.1045,US,USD
+Tellers,sales & serving others,26364,28288,1924,0.073,US,USD
+Purchasing managers,sales & serving others,66352,71032,4680,0.0705,US,USD
+Counselors,sales & serving others,43212,46020,2808,0.065,US,USD
+Cashiers,sales & serving others,20124,21424,1300,0.0646,US,USD
+Bus drivers,sales & serving others,30264,32032,1768,0.0584,US,USD
+Food service,sales & serving others,19396,19968,572,0.0295,US,USD
+Cooks,sales & serving others,21060,21632,572,0.0272,US,USD
+Food preparation,sales & serving others,20852,21372,520,0.0249,US,USD
+Housekeeping,sales & serving others,20800,21008,208,0.01,US,USD
+Stock clerks,sales & serving others,26728,26208,-520,-0.0195,US,USD
+"Science, tech & engineering","science, tech & engineering",51021,61057,10036,0.2046,US,USD
+Production supervisors,"science, tech & engineering",34268,48984,14716,0.4294,US,USD
+Inspectors & testers,"science, tech & engineering",30056,42640,12584,0.4187,US,USD
+Production,"science, tech & engineering",26104,36972,10868,0.4163,US,USD
+Engineering,"science, tech & engineering",40820,55432,14612,0.358,US,USD
+Medical scientists,"science, tech & engineering",59332,75348,16016,0.2699,US,USD
+Market research,"science, tech & engineering",52104,65988,13884,0.2665,US,USD
+IT support,"science, tech & engineering",43524,54548,11024,0.2533,US,USD
+Assembly,"science, tech & engineering",26312,32916,6604,0.251,US,USD
+IT & math,"science, tech & engineering",60580,74620,14040,0.2318,US,USD
+Diagnostics,"science, tech & engineering",48880,60112,11232,0.2298,US,USD
+Physical scientists,"science, tech & engineering",65624,80444,14820,0.2258,US,USD
+Architecture,"science, tech & engineering",60216,73476,13260,0.2202,US,USD
+Medical managers,"science, tech & engineering",63180,75296,12116,0.1918,US,USD
+Software developers,"science, tech & engineering",75764,90272,14508,0.1915,US,USD
+Operations managers,"science, tech & engineering",59072,70200,11128,0.1884,US,USD
+Operations analysts,"science, tech & engineering",64116,75764,11648,0.1817,US,USD
+Social science,"science, tech & engineering",55224,64844,9620,0.1742,US,USD
+IT analysts,"science, tech & engineering",65468,75920,10452,0.1597,US,USD
+Programmers,"science, tech & engineering",65156,75244,10088,0.1548,US,USD
+IT managers,"science, tech & engineering",79508,91676,12168,0.153,US,USD
+IT,"science, tech & engineering",51168,58344,7176,0.1402,US,USD
+Maintenance,"science, tech & engineering",37700,42848,5148,0.1366,US,USD
+Compliance officers,"science, tech & engineering",56784,64324,7540,0.1328,US,USD
+Civil engineers,"science, tech & engineering",66300,73112,6812,0.1027,US,USD
+Machine operators,"science, tech & engineering",24804,27144,2340,0.0943,US,USD
+Science techs,"science, tech & engineering",41860,45344,3484,0.0832,US,USD
+Lab techs,"science, tech & engineering",42536,45656,3120,0.0733,US,USD
+Health technicians,"science, tech & engineering",32136,32136,0,0,US,USD
+Senior managers & execs,senior managers & execs,56883,78447,21564,0.3779,US,USD
+Financial advisors,senior managers & execs,52208,85124,32916,0.6305,US,USD
+Financial services,senior managers & execs,45916,70512,24596,0.5357,US,USD
+Financial managers,senior managers & execs,58604,86892,28288,0.4827,US,USD
+Chief executives,senior managers & execs,81744,116792,35048,0.4288,US,USD
+Management analysts,senior managers & execs,64428,86580,22152,0.3438,US,USD
+Financial operations,senior managers & execs,54912,73632,18720,0.3409,US,USD
+Business operations,senior managers & execs,49088,63908,14820,0.3019,US,USD
+Management,senior managers & execs,58604,75608,17004,0.2902,US,USD
+Financial analysts,senior managers & execs,63648,77636,13988,0.2198,US,USD
+Office supervisor,senior managers & execs,39676,47788,8112,0.2045,US,USD
+Admin & organisation,admin & organisation,20380,25311,4930,0.2369,UK,UKP
+Receptionists,admin & organisation,12009,13281,1272,0.1059,UK,UKP
+Secretaries,admin & organisation,14614,15315,701,0.048,UK,UKP
+Admin,admin & organisation,14594,18729,4135,0.2833,UK,UKP
+Stock control,admin & organisation,17271,20538,3267,0.1892,UK,UKP
+Records admin,admin & organisation,17247,21861,4614,0.2675,UK,UKP
+Finance admin,admin & organisation,17536,22788,5252,0.2995,UK,UKP
+Government admin,admin & organisation,19287,23047,3760,0.1949,UK,UKP
+Transport clerks,admin & organisation,20130,24281,4151,0.2062,UK,UKP
+Local govt. admin,admin & organisation,19317,25496,6179,0.3199,UK,UKP
+Payroll & accounts,admin & organisation,17914,25744,7830,0.4371,UK,UKP
+Human resources,admin & organisation,25376,30153,4777,0.1882,UK,UKP
+Research & admin,admin & organisation,31261,34986,3725,0.1192,UK,UKP
+Accountants,admin & organisation,30122,40427,10305,0.3421,UK,UKP
+Housing managers,admin & organisation,28648,37701,9053,0.316,UK,UKP
+Care & education,care & education,24341,29575,5234,0.211,UK,UKP
+Welfare & housing,care & education,19130,22335,3205,0.1675,UK,UKP
+Youth & community,care & education,21281,22817,1536,0.0722,UK,UKP
+Social care officers,care & education,20674,25514,4840,0.2341,UK,UKP
+Housing officers,care & education,23275,25656,2381,0.1023,UK,UKP
+Paramedics,care & education,34764,37078,2314,0.0666,UK,UKP
+Childcare,care & education,11092,12880,1788,0.1612,UK,UKP
+Teaching assistants,care & education,10931,13391,2460,0.225,UK,UKP
+Care workers,care & education,12204,16271,4067,0.3333,UK,UKP
+Dental nurses,care & education,14025,17372,3347,0.2386,UK,UKP
+Nursing assistants,care & education,15034,17880,2846,0.1893,UK,UKP
+Senior care workers,care & education,15189,19681,4492,0.2957,UK,UKP
+Ambulance staff,care & education,19460,23126,3666,0.1884,UK,UKP
+School crossing,care & education,2301,3219,918,0.399,UK,UKP
+Occupational therapy,care & education,26322,28419,2097,0.0797,UK,UKP
+Physiotherapists,care & education,26244,28793,2549,0.0971,UK,UKP
+Therapists,care & education,26226,29081,2855,0.1089,UK,UKP
+Podiatrists,care & education,27624,30559,2935,0.1062,UK,UKP
+Nurses,care & education,26291,31816,5525,0.2101,UK,UKP
+Nurses & midwives,care & education,26475,31841,5366,0.2027,UK,UKP
+Social workers,care & education,29898,32286,2388,0.0799,UK,UKP
+Further education,care & education,27121,32378,5257,0.1938,UK,UKP
+Primary education,care & education,29665,35127,5462,0.1841,UK,UKP
+Teaching & education,care & education,30307,36971,6664,0.2199,UK,UKP
+Secondary education,care & education,31683,37124,5441,0.1717,UK,UKP
+Health professionals,care & education,27524,38199,10675,0.3878,UK,UKP
+Higher education,care & education,35728,44904,9176,0.2568,UK,UKP
+Education seniors,care & education,46138,55357,9219,0.1998,UK,UKP
+Medical practitioners,care & education,44955,78025,33070,0.7356,UK,UKP
+Creative & media,creative & media,26376,31580,5204,0.2119,UK,UKP
+Culture & media,creative & media,16093,24227,8134,0.5054,UK,UKP
+Graphic designers,creative & media,22227,25610,3383,0.1522,UK,UKP
+Arts & media,creative & media,22738,30197,7459,0.328,UK,UKP
+Designers,creative & media,25025,30506,5481,0.219,UK,UKP
+Arts producers,creative & media,32031,37920,5889,0.1839,UK,UKP
+Public relations,creative & media,25536,28820,3284,0.1286,UK,UKP
+Web design,creative & media,26180,28990,2810,0.1073,UK,UKP
+Media professionals,creative & media,28585,32236,3651,0.1277,UK,UKP
+Business & media,creative & media,31168,37212,6044,0.1939,UK,UKP
+Advertising,creative & media,34179,40084,5905,0.1728,UK,UKP
+Law & justice,law & justice,28875,31795,2920,0.1193,UK,UKP
+Community police,law & justice,25500,26282,782,0.0307,UK,UKP
+Prison service,law & justice,22634,28486,5852,0.2585,UK,UKP
+Legal associate,law & justice,22645,31142,8497,0.3752,UK,UKP
+Protective services,law & justice,30464,34016,3552,0.1166,UK,UKP
+Police officers,law & justice,34715,40275,5560,0.1602,UK,UKP
+Senior police,law & justice,59871,57701,-2170,-0.0362,UK,UKP
+Probation officers,law & justice,29767,31777,2010,0.0675,UK,UKP
+Solicitors,law & justice,37734,42998,5264,0.1395,UK,UKP
+Traffic wardens,law & justice,20023,18630,-1393,-0.0696,UK,UKP
+Security,law & justice,19426,20096,670,0.0345,UK,UKP
+Debt collectors,law & justice,14845,18338,3493,0.2353,UK,UKP
+Manual work,manual work,16513,22529,6015,0.3809,UK,UKP
+Packers,manual work,14343,17865,3522,0.2456,UK,UKP
+Agricultural,manual work,11925,18458,6533,0.5478,UK,UKP
+Plant operatives,manual work,14272,18894,4622,0.3239,UK,UKP
+Trades,manual work,14115,19061,4946,0.3504,UK,UKP
+Construction,manual work,18696,20442,1746,0.0934,UK,UKP
+Sewing machinists,manual work,13510,17689,4179,0.3093,UK,UKP
+Factory operatives,manual work,14526,18480,3954,0.2722,UK,UKP
+Process operatives,manual work,14688,20362,5674,0.3863,UK,UKP
+Metal working,manual work,16285,20943,4658,0.286,UK,UKP
+Electrical assembly,manual work,17144,21370,4226,0.2465,UK,UKP
+AS A WHOLE,manual work,15405,22698,7293,0.4734,UK,UKP
+Assemblers,manual work,15980,23391,7411,0.4638,UK,UKP
+Print assistants,manual work,16120,23547,7427,0.4607,UK,UKP
+Construction manager,manual work,23216,34799,11583,0.4989,UK,UKP
+Skilled agricultural,manual work,15138,18305,3167,0.2092,UK,UKP
+Textiles & printing,manual work,12949,18769,5820,0.4495,UK,UKP
+Furniture makers,manual work,20081,20276,195,0.0097,UK,UKP
+Crafts & decorators,manual work,15287,20457,5170,0.3382,UK,UKP
+Skilled trades,manual work,14754,20684,5930,0.4019,UK,UKP
+Printing & binding,manual work,14190,20927,6737,0.4748,UK,UKP
+Textiles,manual work,12938,21862,8924,0.6898,UK,UKP
+Leatherwork,manual work,14146,22779,8633,0.6103,UK,UKP
+Printing trades,manual work,14734,23569,8835,0.5996,UK,UKP
+Metalwork,manual work,15074,25544,10470,0.6946,UK,UKP
+Instrument making,manual work,17952,28088,10136,0.5646,UK,UKP
+Electrical trades,manual work,23358,28238,4880,0.2089,UK,UKP
+Electricians,manual work,24102,29666,5564,0.2309,UK,UKP
+Trade supervisors,manual work,27448,33642,6194,0.2257,UK,UKP
+Sales & serving others,sales & serving others,18469,22765,4296,0.2812,UK,UKP
+Caretakers,sales & serving others,12680,17532,4852,0.3826,UK,UKP
+Insurance clerks,sales & serving others,18654,21374,2720,0.1458,UK,UKP
+Bank & post office,sales & serving others,16533,21590,5057,0.3059,UK,UKP
+Careers advisors,sales & serving others,22207,25789,3582,0.1613,UK,UKP
+Vocational trainers,sales & serving others,22706,27341,4635,0.2041,UK,UKP
+Marketing associates,sales & serving others,23725,29316,5591,0.2357,UK,UKP
+Public services,sales & serving others,25287,30302,5015,0.1983,UK,UKP
+Fire service,sales & serving others,29782,30968,1186,0.0398,UK,UKP
+Buyers,sales & serving others,27010,32851,5841,0.2163,UK,UKP
+Health & safety,sales & serving others,29837,34421,4584,0.1536,UK,UKP
+Insurance,sales & serving others,28208,35113,6905,0.2448,UK,UKP
+Sales & marketing,sales & serving others,28000,38261,10261,0.3665,UK,UKP
+Accounts managers,sales & serving others,28360,42512,14152,0.499,UK,UKP
+Sales accounts,sales & serving others,35449,45359,9910,0.2796,UK,UKP
+Housekeeping,sales & serving others,11330,17101,5771,0.5094,UK,UKP
+Undertakers,sales & serving others,15672,17586,1914,0.1221,UK,UKP
+Cleaning managers,sales & serving others,12292,18490,6198,0.5042,UK,UKP
+Leisure & travel,sales & serving others,14308,18941,4633,0.3238,UK,UKP
+Travel agents,sales & serving others,14974,22505,7531,0.5029,UK,UKP
+Rail travel clerks,sales & serving others,26512,31525,5013,0.1891,UK,UKP
+Bar staff,sales & serving others,5588,7570,1982,0.3547,UK,UKP
+Cleaners & domestics,sales & serving others,6063,8834,2771,0.457,UK,UKP
+Elementary services,sales & serving others,7100,9151,2051,0.2889,UK,UKP
+Kitchen & catering,sales & serving others,7785,9919,2134,0.2741,UK,UKP
+Cleaning occupations,sales & serving others,6244,11686,5442,0.8716,UK,UKP
+Shelf fillers,sales & serving others,10001,13312,3311,0.3311,UK,UKP
+Valeters,sales & serving others,15183,14632,-551,-0.0363,UK,UKP
+Storage,sales & serving others,14263,18676,4413,0.3094,UK,UKP
+Refuse,sales & serving others,12571,19289,6718,0.5344,UK,UKP
+Postal workers,sales & serving others,16303,22974,6671,0.4092,UK,UKP
+Restaurant managers,sales & serving others,19138,22421,3283,0.1715,UK,UKP
+Hospitality managers,sales & serving others,21102,25036,3934,0.1864,UK,UKP
+Van drivers,sales & serving others,12572,18214,5642,0.4488,UK,UKP
+Lorry drivers,sales & serving others,14567,21741,7174,0.4925,UK,UKP
+Bus & coach drivers,sales & serving others,18558,22081,3523,0.1898,UK,UKP
+Drivers,sales & serving others,41793,40498,-1295,-0.031,UK,UKP
+Train & tram drivers,sales & serving others,48422,47943,-479,-0.0099,UK,UKP
+Welfare officers,sales & serving others,29070,25719,-3351,-0.1153,UK,UKP
+Pharmacists,sales & serving others,34039,44554,10515,0.3089,UK,UKP
+Cashiers,sales & serving others,7908,9958,2050,0.2592,UK,UKP
+Sales assistants,sales & serving others,7847,11720,3873,0.4936,UK,UKP
+Retail cashiers,sales & serving others,8081,12029,3948,0.4886,UK,UKP
+Sales,sales & serving others,8496,13289,4793,0.5641,UK,UKP
+Call centres,sales & serving others,14346,15459,1113,0.0776,UK,UKP
+Customer services,sales & serving others,13669,17485,3816,0.2792,UK,UKP
+Sales supervisors,sales & serving others,15953,19138,3185,0.1996,UK,UKP
+Car sales,sales & serving others,16659,20804,4145,0.2488,UK,UKP
+Communications,sales & serving others,24321,29496,5175,0.2128,UK,UKP
+Service managers,sales & serving others,23612,29789,6177,0.2616,UK,UKP
+Cooks,sales & serving others,9675,12401,2726,0.2818,UK,UKP
+Chefs,sales & serving others,15785,17567,1782,0.1129,UK,UKP
+Food preparation,sales & serving others,12579,17598,5019,0.399,UK,UKP
+Bakers,sales & serving others,14161,17922,3761,0.2656,UK,UKP
+Catering managers,sales & serving others,15705,19008,3303,0.2103,UK,UKP
+Vehicle trades,sales & serving others,23120,25271,2151,0.093,UK,UKP
+"Science, tech & engineering","science, tech & engineering",27826,34185,6360,0.2537,UK,UKP
+Conservation workers,"science, tech & engineering",22106,23488,1382,0.0625,UK,UKP
+Lab technicians,"science, tech & engineering",16471,24094,7623,0.4628,UK,UKP
+Pharmaceutical techs,"science, tech & engineering",19017,25958,6941,0.365,UK,UKP
+Town planners,"science, tech & engineering",29183,27725,-1458,-0.05,UK,UKP
+IT technicians,"science, tech & engineering",23927,28435,4508,0.1884,UK,UKP
+Medical technicians,"science, tech & engineering",20201,28853,8652,0.4283,UK,UKP
+IT user support,"science, tech & engineering",23316,28922,5606,0.2404,UK,UKP
+Science technicians,"science, tech & engineering",19387,29271,9884,0.5098,UK,UKP
+Production techs,"science, tech & engineering",22168,30934,8766,0.3954,UK,UKP
+Engineering techs,"science, tech & engineering",26751,33725,6974,0.2607,UK,UKP
+Animal control,"science, tech & engineering",14880,19210,4330,0.291,UK,UKP
+Routine inspectors,"science, tech & engineering",18033,25031,6998,0.3881,UK,UKP
+Machine operatives,"science, tech & engineering",13814,25280,11466,0.83,UK,UKP
+Chemical operatives,"science, tech & engineering",15840,25768,9928,0.6268,UK,UKP
+Environment,"science, tech & engineering",27779,30093,2314,0.0833,UK,UKP
+Conservation,"science, tech & engineering",25520,30143,4623,0.1812,UK,UKP
+Medical radiographer,"science, tech & engineering",29027,32519,3492,0.1203,UK,UKP
+Environmental health,"science, tech & engineering",29714,32551,2837,0.0955,UK,UKP
+Town planning,"science, tech & engineering",25029,32929,7900,0.3156,UK,UKP
+Chartered surveyors,"science, tech & engineering",28293,34534,6241,0.2206,UK,UKP
+Quality control,"science, tech & engineering",31974,35577,3603,0.1127,UK,UKP
+Architects,"science, tech & engineering",29858,36006,6148,0.2059,UK,UKP
+Social scientists,"science, tech & engineering",32007,36268,4261,0.1331,UK,UKP
+Natural scientists,"science, tech & engineering",31500,36367,4867,0.1545,UK,UKP
+Quality & regulatory,"science, tech & engineering",34343,36867,2524,0.0735,UK,UKP
+Production engineers,"science, tech & engineering",31767,37164,5397,0.1699,UK,UKP
+Biological sciences,"science, tech & engineering",32039,38102,6063,0.1892,UK,UKP
+Design engineers,"science, tech & engineering",29415,38419,9004,0.3061,UK,UKP
+Quality assurance,"science, tech & engineering",35054,38820,3766,0.1074,UK,UKP
+Civil engineers,"science, tech & engineering",30472,38906,8434,0.2768,UK,UKP
+Engineering,"science, tech & engineering",32165,38972,6807,0.2116,UK,UKP
+Quantity surveyors,"science, tech & engineering",32099,39773,7674,0.2391,UK,UKP
+Science & technology,"science, tech & engineering",32500,39837,7337,0.2258,UK,UKP
+Programmers,"science, tech & engineering",33973,40145,6172,0.1817,UK,UKP
+IT & telecoms,"science, tech & engineering",34215,41148,6933,0.2026,UK,UKP
+Systems & analysis,"science, tech & engineering",35935,42053,6118,0.1703,UK,UKP
+Electrical engineers,"science, tech & engineering",42599,43382,783,0.0184,UK,UKP
+IT specialists,"science, tech & engineering",34347,45775,11428,0.3327,UK,UKP
+Project managers,"science, tech & engineering",34306,46272,11966,0.3488,UK,UKP
+IT project managers,"science, tech & engineering",38812,51863,13051,0.3363,UK,UKP
+Aircraft maintenance,"science, tech & engineering",25705,34575,8870,0.3451,UK,UKP
+Inspectors,"science, tech & engineering",23135,30023,6888,0.2977,UK,UKP
+Senior managers & execs,senior managers & execs,32171,41028,8857,0.2823,UK,UKP
+Credit controllers,senior managers & execs,19783,22746,2963,0.1498,UK,UKP
+Finance officers,senior managers & execs,21734,23285,1551,0.0714,UK,UKP
+Office supervisors,senior managers & execs,21563,26939,5376,0.2493,UK,UKP
+Office managers,senior managers & execs,25527,33045,7518,0.2945,UK,UKP
+Business,senior managers & execs,23023,30363,7340,0.3188,UK,UKP
+Business execs,senior managers & execs,23615,32000,8385,0.3551,UK,UKP
+Business associates,senior managers & execs,26332,36000,9668,0.3672,UK,UKP
+Finance & business,senior managers & execs,26484,36481,9997,0.3775,UK,UKP
+Finance & investing,senior managers & execs,28609,37370,8761,0.3062,UK,UKP
+Taxation experts,senior managers & execs,36155,42357,6202,0.1715,UK,UKP
+Finance technicians,senior managers & execs,28115,46664,18549,0.6598,UK,UKP
+Agricultural manager,senior managers & execs,26000,26170,170,0.0065,UK,UKP
+Leisure managers,senior managers & execs,24949,26175,1226,0.0491,UK,UKP
+Hotel managers,senior managers & execs,18637,26785,8148,0.4372,UK,UKP
+Retail managers,senior managers & execs,19391,28658,9267,0.4779,UK,UKP
+Warehouse managers,senior managers & execs,23489,29454,5965,0.2539,UK,UKP
+Managers,senior managers & execs,24960,29968,5008,0.2006,UK,UKP
+Logistics managers,senior managers & execs,25174,31894,6720,0.2669,UK,UKP
+Care managers,senior managers & execs,28171,32895,4724,0.1677,UK,UKP
+Proprietors,senior managers & execs,26233,34021,7788,0.2969,UK,UKP
+Health proprietors,senior managers & execs,27943,34328,6385,0.2285,UK,UKP
+Waste managers,senior managers & execs,32581,37669,5088,0.1562,UK,UKP
+Practice managers,senior managers & execs,27260,38522,11262,0.4131,UK,UKP
+Production managers,senior managers & execs,32906,42169,9263,0.2815,UK,UKP
+Corporate directors,senior managers & execs,32998,43913,10915,0.3308,UK,UKP
+Health directors,senior managers & execs,38268,45056,6788,0.1774,UK,UKP
+Functional managers,senior managers & execs,31133,46290,15157,0.4868,UK,UKP
+Healthcare managers,senior managers & execs,40345,46929,6584,0.1632,UK,UKP
+Purchasing managers,senior managers & execs,41296,48115,6819,0.1651,UK,UKP
+HR managers,senior managers & execs,39248,50516,11268,0.2871,UK,UKP
+Protective services,senior managers & execs,46099,54879,8780,0.1905,UK,UKP
+Functional directors,senior managers & execs,42228,60000,17772,0.4209,UK,UKP
+IT directors,senior managers & execs,63328,60215,-3113,-0.0492,UK,UKP
+Bank managers,senior managers & execs,37129,63133,26004,0.7004,UK,UKP
+Financial managers,senior managers & execs,41662,66000,24338,0.5842,UK,UKP
+Sales directors,senior managers & execs,58125,69417,11292,0.1943,UK,UKP
+CEOs,senior managers & execs,59048,86551,27503,0.4658,UK,UKP
+Business & research,senior managers & execs,31623,40579,8956,0.2832,UK,UKP
+Business analysts,senior managers & execs,33555,40599,7044,0.2099,UK,UKP
+Economists,senior managers & execs,42405,44133,1728,0.0407,UK,UKP
+Valuers & assessors,senior managers & execs,21883,29872,7989,0.3651,UK,UKP

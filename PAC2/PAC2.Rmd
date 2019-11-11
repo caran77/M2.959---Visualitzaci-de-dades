@@ -1,0 +1,127 @@
+---
+title: "PAC2"
+author: "Carlos A. García"
+date: "November 11, 2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+library(dplyr)
+```
+
+## Títol de la visualització on és presenten el dataset o datasets escollits
+
+Diferències salarials per sexe i per lloc de feina
+
+## Descripció curta del document i del que s'hi presenta
+
+Les dades mostren les diferències salarials entre homes i dones per a un mateix lloc i categoria laboral. Les dades estan detallades per país (Estats Units i Regne Unit) i agrupades per categoria laboral.
+
+Els valors estan especificats en la moneda local (Dólars per a les dades dels EUA i Lliures Esterlines per a les del RU); una petita dificultat afegida és convertir a una única moneda; en el nostre cas, Euros. Les dades són de 2014 i estan extretes del "Bureau of Labor Statistics" (Estats Uinits) i de la "Office for National Statistics" (Regne Unit). 
+
+Les dades són per a empleats a temps complet; no s'inclouen ni els treballadors a temps parcial ni els freelance. Els valors monetaris es corresponen amb mitges anuals.
+
+Les dades\footnote{ https://docs.google.com/spreadsheets/d/1Qih5qBcuTntLbx7G7BzunRSOgGD0b\_zc07sTzqiKGn4/edit\#gid=1275614270} originals es poden trobar a la web\footnote{https://informationisbeautiful.net/visualizations/gender-pay-gap/}.
+
+
+## Les dades, presentació: Què en sabeu de les dades: tipus, estructura, curiositats
+
+Les dades originals són:
+
+\begin{itemize}
+\item \textbf{Occupation.}	Lloc de feina. Dada alfanumèrica.
+\item \textbf{Category.}	Categoria del lloc de feina. Funciona com a aglutinador. Dada alfanumèrica.
+\item \textbf{Women average annual salary (\$).}	Salari anual mitjá de les dones per al lloc de feina especificat. Expressat en la moneda del país. Variable numèrica.
+\item \textbf{Men average annual salary (\$).}	Salari anual mitjá dels homes per al lloc de feina especificat. Expressat en la moneda del país. Variable numèrica.	
+\item \textbf{Pay gap (\$).}	Diferència entre el salari dels homes i de les dones. Un valor positiu indica que els homes guanyen més. Negatiu, que són les dones qui més guanyen. Variable numèrica.
+\item \textbf{Pay gap as a percentage.} Diferència de salari expresada en percentatge. Variable numèrica.
+\end{itemize}
+
+A més, hi ha ha dues variables implícites que hem incorporat al dataset:
+\begin{itemize}
+\item \textbf{País.} País de la mostra. Dada alfanumèrica. Pot ser Estats Units o Regne Unit.
+\item \textbf{Moneda.} Moneda de la mostra. Dada alfanumèrica. Pot ser Dólar o Lliura Esterlina.
+\end{itemize}
+
+```{r llegir el document i treure el boxplot}
+# Carreguem les dades del dataset original (incorporant les variables de país i moneda)
+salaryGap <- read.csv2("salaryGap.csv", header = TRUE, sep = ",", dec = ".")
+
+# Canviem el nom de les columnes a un més adient. Les originals incorporen símbols extranys.
+names(salaryGap)[names(salaryGap) == "ï..Occupation"] <- "Occupation"
+names(salaryGap)[names(salaryGap) == "Women.average.annual.salary...."] <- "WomenAverageAnnualSalary"
+names(salaryGap)[names(salaryGap) == "Men.average.annual.salary...."] <- "MenAverageAnnualSalary"
+names(salaryGap)[names(salaryGap) == "Pay.gap...."] <- "PayGap"
+names(salaryGap)[names(salaryGap) == "Pay.gap.as.a.percentage"] <- "PayGapAsAPercentage"
+salaryGap["WomenAverageAnnualSalaryEUR"] <- salaryGap["WomenAverageAnnualSalary"]
+
+# Calculem les columnes en EUR (no és possible comparar diferentes monedes)
+chageUSDEUR = 0.91
+chageUKPEUR = 1.17
+salaryGap$WomenAverageAnnualSalaryEUR[salaryGap$Currency == "USD"] <- 
+  (salaryGap$WomenAverageAnnualSalary) * chageUSDEUR
+salaryGap$WomenAverageAnnualSalaryEUR[salaryGap$Currency == "UKP"] <- 
+  (salaryGap$WomenAverageAnnualSalary) * chageUKPEUR
+salaryGap$MenAverageAnnualSalaryEUR[salaryGap$Currency == "USD"] <- 
+  (salaryGap$MenAverageAnnualSalary) * chageUSDEUR
+salaryGap$MenAverageAnnualSalaryEUR[salaryGap$Currency == "UKP"] <- 
+  (salaryGap$MenAverageAnnualSalary) * chageUKPEUR
+salaryGap$salaryGapEUR <- salaryGap$MenAverageAnnualSalaryEUR - salaryGap$WomenAverageAnnualSalaryEUR
+
+# Validem que no hi ha nulls
+sum(is.na(salaryGap$WomenAverageAnnualSalaryEUR))
+sum(is.na(salaryGap$MenAverageAnnualSalaryEUR))
+sum(is.na(salaryGap$salaryGapEUR))
+sum(is.na(salaryGap$PayGapAsAPercentage))
+
+# Mostrem els resums de les variables numèriques en EUR
+summary(salaryGap$WomenAverageAnnualSalaryEUR)
+summary(salaryGap$MenAverageAnnualSalaryEUR)
+summary(salaryGap$salaryGapEUR)
+summary(salaryGap$PayGapAsAPercentage)
+
+#Mostrem els resums de les variables alfanumèriques
+summary(salaryGap$Currency)
+summary(salaryGap$Country)
+head(summary(salaryGap$Occupation), 10)
+summary(salaryGap$Category)
+
+#Gràficament es mostra clarament que els homes cobren més que les dones
+par(mfrow=c(1,3))
+boxplot(salaryGap$WomenAverageAnnualSalaryEUR, 
+                                         main="Dones", xlab="", ylab="Value", col="#ADD8E6")
+boxplot(salaryGap$MenAverageAnnualSalaryEUR, 
+                                       main="Homes", xlab="", ylab="Value", col="#ADD8E6")
+boxplot(salaryGap$salaryGapEUR, 
+                          main="Diferència", xlab="", ylab="Value", col="#ADD8E6")
+
+
+```
+```{r outliers}
+# Mostrem els outliers
+boxplot.stats(salaryGap$WomenAverageAnnualSalaryEUR)$out
+boxplot.stats(salaryGap$MenAverageAnnualSalaryEUR)$out
+boxplot.stats(salaryGap$salaryGapEUR)$out
+
+library(ggplot2)
+
+# Amb la gràfica de densitat podem comprovar com les dades dels homes estan desplaçats a 
+#   la dreta
+#   Això vol dir que trobem més valors masculins en el rang de salaris alts
+#   Tambè es pot veure com el pic de valors femenins és més alt i més a l'esquerra. 
+#   Això vol dir que hi ha moltes dones que guanyen poc
+
+ggplot(salaryGap) +
+  xlab("Salari mitjà (EUR)") + ylab("Freqüència") + ggtitle("Funció de densitat") +
+  geom_density(aes(x = WomenAverageAnnualSalaryEUR, color = "Dones")) + 
+  geom_density(aes(x = MenAverageAnnualSalaryEUR, color = "Homes"))
+```
+Com a curiositat, mostrem els valors (lloc de feina, categoria, paí, moneda, ...) pels quals una dona guanya el mateix o més de mitja que un home; només hi ha 6 casos:
+```{r dones mes que homes}
+salaryGapWM <- filter(salaryGap, WomenAverageAnnualSalaryEUR >= MenAverageAnnualSalaryEUR)
+salaryGapWM <- select (salaryGapWM, WomenAverageAnnualSalaryEUR, MenAverageAnnualSalaryEUR, 
+                       Occupation,	Category, Country,	Currency)
+salaryGapWM
+
+```
