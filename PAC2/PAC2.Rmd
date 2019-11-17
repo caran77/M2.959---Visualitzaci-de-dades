@@ -1,12 +1,13 @@
 ---
 title: "PAC2"
 author: "Carlos A. García"
-date: "November 11, 2019"
+date: "November 17, 2019"
 output: pdf_document
+header-includes:
+  \usepackage{float}
 ---
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
 library(ggplot2)
 library(knitr)
@@ -29,7 +30,7 @@ Les dades\footnote{ https://docs.google.com/spreadsheets/d/1Qih5qBcuTntLbx7G7Bzu
 
 ## Les dades, presentació: Què en sabeu de les dades: tipus, estructura, curiositats
 
-Les dades originals són:
+Les dades originals són 6 variables i 379 files (237 registres del Regne Unit i 142 dels Estats Units):
 
 \begin{itemize}
 \item \textbf{Occupation.}	Lloc de feina. Dada alfanumèrica.
@@ -46,9 +47,30 @@ A més, hi ha ha dues variables implícites que hem incorporat al dataset:
 \item \textbf{Moneda.} Moneda de la mostra. Dada alfanumèrica. Pot ser Dólar o Lliura Esterlina.
 \end{itemize}
 
+\newpage 
+
 ## Les dades, exploració. Què hi heu descobert: evidències, tendencies, outlayers
 
+Les evidències que hem trobat són:
+\begin{itemize}
+\item \textbf{Els homes guanyen més que les dones a la gran majoria dels llocs de feina (96.5\%).} Els casos en els que una dona guanya igual o més de mitja són molt excepcionals (3.5%).  
+\item \textbf{La diferència és major als Estats Units que al Regne Unit.} La gran majoria de salaris de dones als EUA es situa a la franja esquerra del rang total. Això vol dir que cobren molt menys. Les gràfiques del RU mostren que la gràfica dels homes està desplaçada a la dreta en comparació amb la de les dones. Això vol dir que, en general, cobren més.
+\item \textbf{Especialment dolorós és que a feines ocupades majoritàriament per dones amb un baix salari,} com pot ser "Cleaning occupations" trobem diferències del 87% en favor dels homes (7305.48€ vs 13672.62€).
+\item \textbf{Trobem diferències importants a tots els nivells salarials.} Que una dona arribi a directiu d'una empresa no vol dir que acabi guanyant el mateix que si for un home. Per exemple, un "Bank manager" masculí guanya de mitja més de 30.000€ més a l'any que una dona.
+\end{itemize}
+
 ## Les dades, procediment i eines. Explicar com ho heu descobert: amb quines eines, amb quines operacions
+
+Hem obtingut les dades de "Information is Beautiful\footnote{https://informationisbeautiful.net/visualizations/gender-pay-gap/}" 
+Com a eines hem utilitzat:
+\begin{itemize}
+\item \textbf{R i RStudio} per a l'anàlisi de dades.
+\item \textbf{LaTex} per a la realització del document.
+\item \textbf{RMarkdown} per a donar format al document.
+\item \textbf{Visme\footnote{https://www.visme.co/}} com a eina web de visualització de dades. 
+\end{itemize}
+
+Les operacions realitzades són les bàsiques de qualsevol anàlisi estadístic. Les operacions concretes es detallen a continuació.
 
 ### Lectura i tractament inicial de les dades
 
@@ -59,37 +81,57 @@ salaryGap <- read.csv2("salaryGap.csv", header = TRUE, sep = ",", dec = ".")
 Canviem el nom de les columnes a un més adient. Les originals incorporen símbols extranys.
 ```{r camviem el nom de les columnes}
 names(salaryGap)[names(salaryGap) == "ï..Occupation"] <- "Occupation"
-names(salaryGap)[names(salaryGap) == "Women.average.annual.salary...."] <- "WomenAverageAnnualSalary"
-names(salaryGap)[names(salaryGap) == "Men.average.annual.salary...."] <- "MenAverageAnnualSalary"
+names(salaryGap)[names(salaryGap) == "Women.average.annual.salary...."] <- 
+  "WomenAverageAnnualSalary"
+names(salaryGap)[names(salaryGap) == "Men.average.annual.salary...."] <- 
+  "MenAverageAnnualSalary"
 names(salaryGap)[names(salaryGap) == "Pay.gap...."] <- "PayGap"
-names(salaryGap)[names(salaryGap) == "Pay.gap.as.a.percentage"] <- "PayGapAsAPercentage"
+names(salaryGap)[names(salaryGap) == "Pay.gap.as.a.percentage"] <- 
+  "PayGapAsAPercentage"
 salaryGap["WomenAverageAnnualSalaryEUR"] <- salaryGap["WomenAverageAnnualSalary"]
 ```
 Calculem les columnes en EUR (no és possible comparar diferentes monedes)
 ```{r dades en EUR}
 chageUSDEUR = 0.91
 chageUKPEUR = 1.17
+
 salaryGap$WomenAverageAnnualSalaryEUR[salaryGap$Currency == "USD"] <- 
-  (salaryGap$WomenAverageAnnualSalary) * chageUSDEUR
+  salaryGap$WomenAverageAnnualSalary[salaryGap$Currency == "USD"] * chageUSDEUR
+
 salaryGap$WomenAverageAnnualSalaryEUR[salaryGap$Currency == "UKP"] <- 
-  (salaryGap$WomenAverageAnnualSalary) * chageUKPEUR
+  salaryGap$WomenAverageAnnualSalary[salaryGap$Currency == "UKP"] * chageUKPEUR
+
 salaryGap$MenAverageAnnualSalaryEUR[salaryGap$Currency == "USD"] <- 
-  (salaryGap$MenAverageAnnualSalary) * chageUSDEUR
+  salaryGap$MenAverageAnnualSalary[salaryGap$Currency == "USD"]  * chageUSDEUR
+
 salaryGap$MenAverageAnnualSalaryEUR[salaryGap$Currency == "UKP"] <- 
-  (salaryGap$MenAverageAnnualSalary) * chageUKPEUR
-salaryGap$salaryGapEUR <- salaryGap$MenAverageAnnualSalaryEUR - salaryGap$WomenAverageAnnualSalaryEUR
+  salaryGap$MenAverageAnnualSalary[salaryGap$Currency == "UKP"] * chageUKPEUR
+
+salaryGap$salaryGapEUR <- 
+  salaryGap$MenAverageAnnualSalaryEUR - salaryGap$WomenAverageAnnualSalaryEUR
+
 salaryGapUS <- filter(salaryGap, Country == "US")
 salaryGapUK <- filter(salaryGap, Country == "UK")
 ```
-Validem que no hi ha nulls
+Validem que no hi ha nulls:
 ```{r validem que no hi ha nulls}
 sum(is.na(salaryGap$WomenAverageAnnualSalaryEUR))
 sum(is.na(salaryGap$MenAverageAnnualSalaryEUR))
 sum(is.na(salaryGap$salaryGapEUR))
 sum(is.na(salaryGap$PayGapAsAPercentage))
 ```
-
 ### Resum de les dades
+
+Contem el nombre de registres:
+
+```{r contem el nombre de registres}
+# Total
+nrow(salaryGap)
+# Registres RU
+nrow(salaryGapUK)
+# Registres EUA
+nrow(salaryGapUS)
+```
 
 Mostrem els resums de les variables numèriques en EUR
 
@@ -153,17 +195,111 @@ ggplot() +
   geom_density(data=salaryGapUK, aes(x = salaryGapEUR, color = "Diferència RU"))
 ```
 
-Com a curiositat, mostrem els valors (lloc de feina, categoria, paí, moneda, ...) pels quals una dona guanya el mateix o més de mitja que un home; només hi ha 6 casos:
+Com a curiositat, mostrem els valors (lloc de feina, categoria, paí, moneda, ...) pels quals una dona guanya el mateix o més de mitja que un home; només hi ha 10 casos:
 ```{r dones mes que homes}
-salaryGapWM <- filter(salaryGap, WomenAverageAnnualSalaryEUR >= MenAverageAnnualSalaryEUR)
+salaryGapWM <- filter(salaryGap, WomenAverageAnnualSalary >= MenAverageAnnualSalary)
 salaryGapWM <- select (salaryGapWM, 
                        Occupation,	Category, Country,	Currency,
                        WomenAverageAnnualSalaryEUR, MenAverageAnnualSalaryEUR)
 kable(salaryGapWM, caption = "Feines on les dones gunayen igual o més que els homes"
-      ,col.names = c("Ocupació","Categoria","País", "Moneda", "Salari dones","Salari homes")
-      ,align = c('r', 'r', 'r', 'r', 'r', 'r')) 
+      ,col.names = c("Ocupació","Categoria","País", "Moneda", "Salari dones"
+                     ,"Salari homes")
+      ,align = c('r', 'r', 'r', 'r', 'r', 'r')
+      , row.names = TRUE) 
 
 ```
-print(out, echo=FALSE)
 
 ## Visualització sobre les dades. Un Dashboard o un conjunt de visualitzacions sobre els datasets escollits
+
+El dashboard es pot trobar a:
+
+https://my.visme.co/projects/vdjxvjdd-visualitzacio-de-dades
+
+El resum de les operacions que s'han fet per poder mostrar les dades al dasboard són:
+
+```{r obtenim les dades específiques per a les gràfiques}
+# Diferències totals
+nrow(filter(salaryGap, salaryGapEUR <= 0))
+nrow(filter(salaryGap, salaryGapEUR > 0 & salaryGapEUR <= 5000))
+nrow(filter(salaryGap, salaryGapEUR > 5000 & salaryGapEUR <= 10000))
+nrow(filter(salaryGap, salaryGapEUR > 10000 & salaryGapEUR <= 15000))
+nrow(filter(salaryGap, salaryGapEUR > 15000))
+# Diferències als EUA
+nrow(filter(salaryGapUS, salaryGapEUR <= 0))
+nrow(filter(salaryGapUS, salaryGapEUR > 0 & salaryGapEUR <= 5000))
+nrow(filter(salaryGapUS, salaryGapEUR > 5000 & salaryGapEUR <= 10000))
+nrow(filter(salaryGapUS, salaryGapEUR > 10000 & salaryGapEUR <= 15000))
+nrow(filter(salaryGapUS, salaryGapEUR > 15000))
+# Diferències as RU
+nrow(filter(salaryGapUK, salaryGapEUR <= 0))
+nrow(filter(salaryGapUK, salaryGapEUR > 0 & salaryGapEUR <= 5000))
+nrow(filter(salaryGapUK, salaryGapEUR > 5000 & salaryGapEUR <= 10000))
+nrow(filter(salaryGapUK, salaryGapEUR > 10000 & salaryGapEUR <= 15000))
+nrow(filter(salaryGapUK, salaryGapEUR > 15000))
+# Dades de les categories
+salaryGapCategory <- 
+filter(salaryGap, tolower(as.character(Occupation)) == tolower(as.character(Category)))
+salaryGapCategory <- select (salaryGapCategory, 
+                       Category, Country,	Currency,
+                       WomenAverageAnnualSalaryEUR, MenAverageAnnualSalaryEUR
+                       , salaryGapEUR, PayGapAsAPercentage)
+salaryGapCategory <- arrange (salaryGapCategory, Country, Category)
+kable(salaryGapCategory, caption = "Categories"
+      ,col.names = c("Categoria","País", "Moneda", "Salari dones","Salari homes"
+                     , "Diferència", "Diferència %")
+      ,align = c('r', 'r', 'r', 'r', 'r', 'r')
+      , row.names = TRUE) 
+# Top diferència
+salaryGapTop <- 
+  filter(salaryGap, tolower(as.character(Occupation)) != tolower(as.character(Category)))
+salaryGapTop <- select (salaryGapTop, 
+                       Occupation, Category, Country,
+                       WomenAverageAnnualSalaryEUR, 
+                       MenAverageAnnualSalaryEUR, salaryGapEUR, PayGapAsAPercentage)
+salaryGapTop <- arrange (salaryGapTop, desc(salaryGapEUR))
+salaryGapTop <- head(salaryGapTop)
+kable(salaryGapTop, caption = "Top diferències"
+      ,col.names = c("Ocupació", "Categoria","País", "Salari dones","Salari homes", 
+                     "Diferència", "Diferència %")
+      ,align = c('r', 'r', 'r', 'r', 'r', 'r')
+      , row.names = TRUE) 
+
+salaryGapTop <- 
+filter(salaryGap, tolower(as.character(Occupation)) != tolower(as.character(Category)))
+salaryGapTop <- select (salaryGapTop, 
+                       Occupation, Category, Country,
+                       WomenAverageAnnualSalaryEUR, MenAverageAnnualSalaryEUR, 
+                       salaryGapEUR, PayGapAsAPercentage)
+salaryGapTop <- arrange (salaryGapTop, desc(PayGapAsAPercentage))
+salaryGapTop <- head(salaryGapTop)
+kable(salaryGapTop, caption = "Top diferències en percentatge"
+      ,col.names = c("Ocupació", "Categoria","País", "Salari dones","Salari homes", 
+                     "Diferència", "Diferència %")
+      ,align = c('r', 'r', 'r', 'r', 'r', 'r')
+      , row.names = TRUE) 
+
+salaryGapTop <- 
+filter(salaryGap, tolower(as.character(Occupation)) != tolower(as.character(Category)))
+
+salaryGapTop <- 
+  filter(salaryGapTop, salaryGapEUR < 0)
+
+salaryGapTop <- select (salaryGapTop, 
+                       Occupation, Country,
+                       WomenAverageAnnualSalaryEUR, MenAverageAnnualSalaryEUR, 
+                       salaryGapEUR, PayGapAsAPercentage)
+
+salaryGapTop <- arrange (salaryGapTop, salaryGapEUR)
+kable(salaryGapTop, caption = "Diferències en favor de les dones"
+      ,col.names = c("Ocupació", "País", "Salari dones","Salari homes", 
+                     "Diferència", "Diferència %")
+      ,align = c('r', 'r', 'r', 'r', 'r', 'r')
+      , row.names = TRUE) 
+```
+
+Finalment, desem el dataset:
+
+
+```{r desem les dades}
+write.csv(salaryGap, file = "salaryGapFinal.csv")
+```

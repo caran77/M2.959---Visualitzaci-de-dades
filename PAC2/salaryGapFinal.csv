@@ -1,0 +1,380 @@
+"","Occupation","Category","WomenAverageAnnualSalary","MenAverageAnnualSalary","PayGap","PayGapAsAPercentage","Country","Currency","WomenAverageAnnualSalaryEUR","MenAverageAnnualSalaryEUR","salaryGapEUR"
+"1","admin & organisation","admin & organisation",41740,51328,9588,0.2102,"US","USD",37983.4,46708.48,8725.08
+"2","HR managers","admin & organisation",67600,95004,27404,0.4054,"US","USD",61516,86453.64,24937.64
+"3","Production clerks","admin & organisation",38376,53248,14872,0.3875,"US","USD",34922.16,48455.68,13533.52
+"4","Human resources","admin & organisation",47424,65364,17940,0.3783,"US","USD",43155.84,59481.24,16325.4
+"5","Admin","admin & organisation",35984,45656,9672,0.2688,"US","USD",32745.44,41546.96,8801.52
+"6","Accountants","admin & organisation",51948,64272,12324,0.2372,"US","USD",47272.68,58487.52,11214.84
+"7","Education admin","admin & organisation",60892,74828,13936,0.2289,"US","USD",55411.72,68093.48,12681.76
+"8","Secretaries","admin & organisation",35620,42172,6552,0.1839,"US","USD",32414.2,38376.52,5962.32
+"9","Receptionists","admin & organisation",27664,32032,4368,0.1579,"US","USD",25174.24,29149.12,3974.88
+"10","Property managers","admin & organisation",44980,50752,5772,0.1283,"US","USD",40931.8,46184.32,5252.52
+"11","Accounting","admin & organisation",34320,38064,3744,0.1091,"US","USD",31231.2,34638.24,3407.04
+"12","Admin","admin & organisation",33124,36452,3328,0.1005,"US","USD",30142.84,33171.32,3028.48
+"13","Data entry keyers","admin & organisation",32136,34996,2860,0.089,"US","USD",29243.76,31846.36,2602.6
+"14","Office clerks","admin & organisation",32552,34424,1872,0.0575,"US","USD",29622.32,31325.84,1703.52
+"15","Care & education","care & education",43937,53210,9273,0.2017,"US","USD",39982.67,48421.1,8438.43
+"16","Doctors & surgeons","care & education",64792,104104,39312,0.6067,"US","USD",58960.72,94734.64,35773.92
+"17","Teachers & instructors","care & education",40144,56992,16848,0.4197,"US","USD",36531.04,51862.72,15331.68
+"18","Personal care","care & education",23660,31564,7904,0.3341,"US","USD",21530.6,28723.24,7192.64
+"19","Healthcare","care & education",51116,65312,14196,0.2777,"US","USD",46515.56,59433.92,12918.36
+"20","Education","care & education",46644,59332,12688,0.272,"US","USD",42446.04,53992.12,11546.08
+"21","Postsecondary","care & education",59436,73268,13832,0.2327,"US","USD",54086.76,66673.88,12587.12
+"22","Teacher assistants","care & education",25688,30160,4472,0.1741,"US","USD",23376.08,27445.6,4069.52
+"23","Social services","care & education",50856,59384,8528,0.1677,"US","USD",46278.96,54039.44,7760.48
+"24","Pre-secondary","care & education",49712,56992,7280,0.1464,"US","USD",45237.92,51862.72,6624.8
+"25","Healthcare support","care & education",25584,29120,3536,0.1382,"US","USD",23281.44,26499.2,3217.76
+"26","Nursing","care & education",24232,27456,3224,0.133,"US","USD",22051.12,24984.96,2933.84
+"27","Physical therapists","care & education",67964,76856,8892,0.1308,"US","USD",61847.24,69938.96,8091.72
+"28","Secondary school","care & education",51168,57616,6448,0.126,"US","USD",46562.88,52430.56,5867.68
+"29","Emergency medical","care & education",36868,41132,4264,0.1157,"US","USD",33549.88,37430.12,3880.24
+"30","Nursing managers","care & education",55952,61880,5928,0.1059,"US","USD",50916.32,56310.8,5394.48
+"31","Personal care aides","care & education",22100,24180,2080,0.0941,"US","USD",20111,22003.8,1892.8
+"32","Special education","care & education",51324,56056,4732,0.0922,"US","USD",46704.84,51010.96,4306.12
+"33","Social workers","care & education",43628,46384,2756,0.0632,"US","USD",39701.48,42209.44,2507.96
+"34","Creative & media","creative & media",46280,57009,10729,0.2311,"US","USD",42114.8,51878.19,9763.39
+"35","Web developers","creative & media",51376,64740,13364,0.2601,"US","USD",46752.16,58913.4,12161.24
+"36","Designers","creative & media",42224,53040,10816,0.2562,"US","USD",38423.84,48266.4,9842.56
+"37","Arts & media","creative & media",45240,53248,8008,0.177,"US","USD",41168.4,48455.68,7287.28
+"38","Law & justice","law & justice",31601,40444,8843,0.2622,"US","USD",28756.91,36804.04,8047.13
+"39","Legal occupations","law & justice",52052,91780,39728,0.7632,"US","USD",47367.32,83519.8,36152.48
+"40","Protective services","law & justice",32084,46072,13988,0.436,"US","USD",29196.44,41925.52,12729.08
+"41","Police officers","law & justice",38636,54236,15600,0.4038,"US","USD",35158.76,49354.76,14196
+"42","Lawyers","law & justice",82680,99580,16900,0.2044,"US","USD",75238.8,90617.8,15379
+"43","Security","law & justice",26728,30628,3900,0.1459,"US","USD",24322.48,27871.48,3549
+"44","Bailiffs & jailers","law & justice",35724,39260,3536,0.099,"US","USD",32508.84,35726.6,3217.76
+"45","Traffic clerks","law & justice",29952,31356,1404,0.0469,"US","USD",27256.32,28533.96,1277.64
+"46","Manual Work","manual work",24632,30462,5829,0.2382,"US","USD",22415.12,27720.42,5305.3
+"47","Construction","manual work",26468,39728,13260,0.501,"US","USD",24085.88,36152.48,12066.6
+"48","Production workers","manual work",25584,35152,9568,0.374,"US","USD",23281.44,31988.32,8706.88
+"49","Metal workers","manual work",26572,33644,7072,0.2661,"US","USD",24180.52,30616.04,6435.52
+"50","Grounds maintenance","manual work",21476,26884,5408,0.2518,"US","USD",19543.16,24464.44,4921.28
+"51","Farming & fishing","manual work",19500,23764,4264,0.2187,"US","USD",17745,21625.24,3880.24
+"52","Farmers","manual work",19188,22724,3536,0.1843,"US","USD",17461.08,20678.84,3217.76
+"53","Electrical workers","manual work",26312,31096,4784,0.1818,"US","USD",23943.92,28297.36,4353.44
+"54","Packers","manual work",20540,23868,3328,0.162,"US","USD",18691.4,21719.88,3028.48
+"55","Laborers","manual work",24752,28392,3640,0.1471,"US","USD",22524.32,25836.72,3312.4
+"56","Construction","manual work",35932,39364,3432,0.0955,"US","USD",32698.12,35821.24,3123.12
+"57","Sales & serving others","sales & serving others",35021,42699,7678,0.2155,"US","USD",31869.11,38856.09,6986.98
+"58","Sales","sales & serving others",29640,43732,14092,0.4754,"US","USD",26972.4,39796.12,12823.72
+"59","Domestic supervisors","sales & serving others",26000,37440,11440,0.44,"US","USD",23660,34070.4,10410.4
+"60","Retail salespersons","sales & serving others",25532,36296,10764,0.4216,"US","USD",23234.12,33029.36,9795.24
+"61","Marketing & sales","sales & serving others",59800,84448,24648,0.4122,"US","USD",54418,76847.68,22429.68
+"62","Bartenders","sales & serving others",23868,32968,9100,0.3813,"US","USD",21719.88,30000.88,8281
+"63","Recreation & fitness","sales & serving others",27092,37232,10140,0.3743,"US","USD",24653.72,33881.12,9227.4
+"64","Real estate","sales & serving others",37752,51532,13780,0.365,"US","USD",34354.32,46894.12,12539.8
+"65","Drivers","sales & serving others",28340,38428,10088,0.356,"US","USD",25789.4,34969.48,9180.08
+"66","Insurance sales","sales & serving others",36296,49192,12896,0.3553,"US","USD",33029.36,44764.72,11735.36
+"67","Food service manager","sales & serving others",30940,41912,10972,0.3546,"US","USD",28155.4,38139.92,9984.52
+"68","Training","sales & serving others",49660,66560,16900,0.3403,"US","USD",45190.6,60569.6,15379
+"69","Retail supervisors","sales & serving others",30940,41236,10296,0.3328,"US","USD",28155.4,37524.76,9369.36
+"70","Clergy","sales & serving others",39676,52364,12688,0.3198,"US","USD",36105.16,47651.24,11546.08
+"71","Janitors","sales & serving others",21580,28080,6500,0.3012,"US","USD",19637.8,25552.8,5915
+"72","Credit counselors","sales & serving others",47580,61776,14196,0.2984,"US","USD",43297.8,56216.16,12918.36
+"73","Retail sales","sales & serving others",39832,51272,11440,0.2872,"US","USD",36247.12,46657.52,10410.4
+"74","Wholesale reps","sales & serving others",45396,58240,12844,0.2829,"US","USD",41310.36,52998.4,11688.04
+"75","Service occupations","sales & serving others",23972,30316,6344,0.2646,"US","USD",21814.52,27587.56,5773.04
+"76","Transportation","sales & serving others",43472,52728,9256,0.2129,"US","USD",39559.52,47982.48,8422.96
+"77","Waiters & bartenders","sales & serving others",21840,26468,4628,0.2119,"US","USD",19874.4,24085.88,4211.48
+"78","Waiters & waitresses","sales & serving others",21580,26052,4472,0.2072,"US","USD",19637.8,23707.32,4069.52
+"79","Postal service","sales & serving others",44252,53300,9048,0.2045,"US","USD",40269.32,48503,8233.68
+"80","Claims adjusters","sales & serving others",47216,56836,9620,0.2037,"US","USD",42966.56,51720.76,8754.2
+"81","Wholesale buyers","sales & serving others",41912,50440,8528,0.2035,"US","USD",38139.92,45900.4,7760.48
+"82","Catering supervisors","sales & serving others",25220,30316,5096,0.2021,"US","USD",22950.2,27587.56,4637.36
+"83","Advertising sales","sales & serving others",45292,54132,8840,0.1952,"US","USD",41215.72,49260.12,8044.4
+"84","Butchers","sales & serving others",23764,27924,4160,0.1751,"US","USD",21625.24,25410.84,3785.6
+"85","Purchasers","sales & serving others",46644,54808,8164,0.175,"US","USD",42446.04,49875.28,7429.24
+"86","Customer services","sales & serving others",31512,36296,4784,0.1518,"US","USD",28675.92,33029.36,4353.44
+"87","Pharmacists","sales & serving others",98904,113152,14248,0.1441,"US","USD",90002.64,102968.32,12965.68
+"88","Sales supervisors","sales & serving others",45656,52208,6552,0.1435,"US","USD",41546.96,47509.28,5962.32
+"89","Dispatchers","sales & serving others",34788,39728,4940,0.142,"US","USD",31657.08,36152.48,4495.4
+"90","Chefs & head cooks","sales & serving others",27612,31252,3640,0.1318,"US","USD",25126.92,28439.32,3312.4
+"91","Insurance clerks","sales & serving others",32864,36868,4004,0.1218,"US","USD",29906.24,33549.88,3643.64
+"92","Bakers","sales & serving others",24388,26936,2548,0.1045,"US","USD",22193.08,24511.76,2318.68
+"93","Tellers","sales & serving others",26364,28288,1924,0.073,"US","USD",23991.24,25742.08,1750.84
+"94","Purchasing managers","sales & serving others",66352,71032,4680,0.0705,"US","USD",60380.32,64639.12,4258.8
+"95","Counselors","sales & serving others",43212,46020,2808,0.065,"US","USD",39322.92,41878.2,2555.28000000001
+"96","Cashiers","sales & serving others",20124,21424,1300,0.0646,"US","USD",18312.84,19495.84,1183
+"97","Bus drivers","sales & serving others",30264,32032,1768,0.0584,"US","USD",27540.24,29149.12,1608.88
+"98","Food service","sales & serving others",19396,19968,572,0.0295,"US","USD",17650.36,18170.88,520.52
+"99","Cooks","sales & serving others",21060,21632,572,0.0272,"US","USD",19164.6,19685.12,520.519999999997
+"100","Food preparation","sales & serving others",20852,21372,520,0.0249,"US","USD",18975.32,19448.52,473.200000000001
+"101","Housekeeping","sales & serving others",20800,21008,208,0.01,"US","USD",18928,19117.28,189.279999999999
+"102","Stock clerks","sales & serving others",26728,26208,-520,-0.0195,"US","USD",24322.48,23849.28,-473.199999999997
+"103","Science, tech & engineering","science, tech & engineering",51021,61057,10036,0.2046,"US","USD",46429.11,55561.87,9132.76
+"104","Production supervisors","science, tech & engineering",34268,48984,14716,0.4294,"US","USD",31183.88,44575.44,13391.56
+"105","Inspectors & testers","science, tech & engineering",30056,42640,12584,0.4187,"US","USD",27350.96,38802.4,11451.44
+"106","Production","science, tech & engineering",26104,36972,10868,0.4163,"US","USD",23754.64,33644.52,9889.88
+"107","Engineering","science, tech & engineering",40820,55432,14612,0.358,"US","USD",37146.2,50443.12,13296.92
+"108","Medical scientists","science, tech & engineering",59332,75348,16016,0.2699,"US","USD",53992.12,68566.68,14574.56
+"109","Market research","science, tech & engineering",52104,65988,13884,0.2665,"US","USD",47414.64,60049.08,12634.44
+"110","IT support","science, tech & engineering",43524,54548,11024,0.2533,"US","USD",39606.84,49638.68,10031.84
+"111","Assembly","science, tech & engineering",26312,32916,6604,0.251,"US","USD",23943.92,29953.56,6009.64
+"112","IT & math","science, tech & engineering",60580,74620,14040,0.2318,"US","USD",55127.8,67904.2,12776.4
+"113","Diagnostics","science, tech & engineering",48880,60112,11232,0.2298,"US","USD",44480.8,54701.92,10221.12
+"114","Physical scientists","science, tech & engineering",65624,80444,14820,0.2258,"US","USD",59717.84,73204.04,13486.2
+"115","Architecture","science, tech & engineering",60216,73476,13260,0.2202,"US","USD",54796.56,66863.16,12066.6
+"116","Medical managers","science, tech & engineering",63180,75296,12116,0.1918,"US","USD",57493.8,68519.36,11025.56
+"117","Software developers","science, tech & engineering",75764,90272,14508,0.1915,"US","USD",68945.24,82147.52,13202.28
+"118","Operations managers","science, tech & engineering",59072,70200,11128,0.1884,"US","USD",53755.52,63882,10126.48
+"119","Operations analysts","science, tech & engineering",64116,75764,11648,0.1817,"US","USD",58345.56,68945.24,10599.68
+"120","Social science","science, tech & engineering",55224,64844,9620,0.1742,"US","USD",50253.84,59008.04,8754.2
+"121","IT analysts","science, tech & engineering",65468,75920,10452,0.1597,"US","USD",59575.88,69087.2,9511.31999999999
+"122","Programmers","science, tech & engineering",65156,75244,10088,0.1548,"US","USD",59291.96,68472.04,9180.08000000001
+"123","IT managers","science, tech & engineering",79508,91676,12168,0.153,"US","USD",72352.28,83425.16,11072.88
+"124","IT","science, tech & engineering",51168,58344,7176,0.1402,"US","USD",46562.88,53093.04,6530.16
+"125","Maintenance","science, tech & engineering",37700,42848,5148,0.1366,"US","USD",34307,38991.68,4684.68
+"126","Compliance officers","science, tech & engineering",56784,64324,7540,0.1328,"US","USD",51673.44,58534.84,6861.4
+"127","Civil engineers","science, tech & engineering",66300,73112,6812,0.1027,"US","USD",60333,66531.92,6198.92
+"128","Machine operators","science, tech & engineering",24804,27144,2340,0.0943,"US","USD",22571.64,24701.04,2129.4
+"129","Science techs","science, tech & engineering",41860,45344,3484,0.0832,"US","USD",38092.6,41263.04,3170.44
+"130","Lab techs","science, tech & engineering",42536,45656,3120,0.0733,"US","USD",38707.76,41546.96,2839.2
+"131","Health technicians","science, tech & engineering",32136,32136,0,0,"US","USD",29243.76,29243.76,0
+"132","Senior managers & execs","senior managers & execs",56883,78447,21564,0.3779,"US","USD",51763.53,71386.77,19623.24
+"133","Financial advisors","senior managers & execs",52208,85124,32916,0.6305,"US","USD",47509.28,77462.84,29953.56
+"134","Financial services","senior managers & execs",45916,70512,24596,0.5357,"US","USD",41783.56,64165.92,22382.36
+"135","Financial managers","senior managers & execs",58604,86892,28288,0.4827,"US","USD",53329.64,79071.72,25742.08
+"136","Chief executives","senior managers & execs",81744,116792,35048,0.4288,"US","USD",74387.04,106280.72,31893.68
+"137","Management analysts","senior managers & execs",64428,86580,22152,0.3438,"US","USD",58629.48,78787.8,20158.32
+"138","Financial operations","senior managers & execs",54912,73632,18720,0.3409,"US","USD",49969.92,67005.12,17035.2
+"139","Business operations","senior managers & execs",49088,63908,14820,0.3019,"US","USD",44670.08,58156.28,13486.2
+"140","Management","senior managers & execs",58604,75608,17004,0.2902,"US","USD",53329.64,68803.28,15473.64
+"141","Financial analysts","senior managers & execs",63648,77636,13988,0.2198,"US","USD",57919.68,70648.76,12729.08
+"142","Office supervisor","senior managers & execs",39676,47788,8112,0.2045,"US","USD",36105.16,43487.08,7381.92
+"143","Admin & organisation","admin & organisation",20380,25311,4930,0.2369,"UK","UKP",23844.6,29613.87,5769.27
+"144","Receptionists","admin & organisation",12009,13281,1272,0.1059,"UK","UKP",14050.53,15538.77,1488.24
+"145","Secretaries","admin & organisation",14614,15315,701,0.048,"UK","UKP",17098.38,17918.55,820.170000000002
+"146","Admin","admin & organisation",14594,18729,4135,0.2833,"UK","UKP",17074.98,21912.93,4837.95
+"147","Stock control","admin & organisation",17271,20538,3267,0.1892,"UK","UKP",20207.07,24029.46,3822.39
+"148","Records admin","admin & organisation",17247,21861,4614,0.2675,"UK","UKP",20178.99,25577.37,5398.38
+"149","Finance admin","admin & organisation",17536,22788,5252,0.2995,"UK","UKP",20517.12,26661.96,6144.84
+"150","Government admin","admin & organisation",19287,23047,3760,0.1949,"UK","UKP",22565.79,26964.99,4399.2
+"151","Transport clerks","admin & organisation",20130,24281,4151,0.2062,"UK","UKP",23552.1,28408.77,4856.67
+"152","Local govt. admin","admin & organisation",19317,25496,6179,0.3199,"UK","UKP",22600.89,29830.32,7229.43
+"153","Payroll & accounts","admin & organisation",17914,25744,7830,0.4371,"UK","UKP",20959.38,30120.48,9161.1
+"154","Human resources","admin & organisation",25376,30153,4777,0.1882,"UK","UKP",29689.92,35279.01,5589.09
+"155","Research & admin","admin & organisation",31261,34986,3725,0.1192,"UK","UKP",36575.37,40933.62,4358.25
+"156","Accountants","admin & organisation",30122,40427,10305,0.3421,"UK","UKP",35242.74,47299.59,12056.85
+"157","Housing managers","admin & organisation",28648,37701,9053,0.316,"UK","UKP",33518.16,44110.17,10592.01
+"158","Care & education","care & education",24341,29575,5234,0.211,"UK","UKP",28478.97,34602.75,6123.78
+"159","Welfare & housing","care & education",19130,22335,3205,0.1675,"UK","UKP",22382.1,26131.95,3749.85
+"160","Youth & community","care & education",21281,22817,1536,0.0722,"UK","UKP",24898.77,26695.89,1797.12
+"161","Social care officers","care & education",20674,25514,4840,0.2341,"UK","UKP",24188.58,29851.38,5662.8
+"162","Housing officers","care & education",23275,25656,2381,0.1023,"UK","UKP",27231.75,30017.52,2785.77
+"163","Paramedics","care & education",34764,37078,2314,0.0666,"UK","UKP",40673.88,43381.26,2707.38
+"164","Childcare","care & education",11092,12880,1788,0.1612,"UK","UKP",12977.64,15069.6,2091.96
+"165","Teaching assistants","care & education",10931,13391,2460,0.225,"UK","UKP",12789.27,15667.47,2878.2
+"166","Care workers","care & education",12204,16271,4067,0.3333,"UK","UKP",14278.68,19037.07,4758.39
+"167","Dental nurses","care & education",14025,17372,3347,0.2386,"UK","UKP",16409.25,20325.24,3915.99
+"168","Nursing assistants","care & education",15034,17880,2846,0.1893,"UK","UKP",17589.78,20919.6,3329.82
+"169","Senior care workers","care & education",15189,19681,4492,0.2957,"UK","UKP",17771.13,23026.77,5255.64
+"170","Ambulance staff","care & education",19460,23126,3666,0.1884,"UK","UKP",22768.2,27057.42,4289.22
+"171","School crossing","care & education",2301,3219,918,0.399,"UK","UKP",2692.17,3766.23,1074.06
+"172","Occupational therapy","care & education",26322,28419,2097,0.0797,"UK","UKP",30796.74,33250.23,2453.49
+"173","Physiotherapists","care & education",26244,28793,2549,0.0971,"UK","UKP",30705.48,33687.81,2982.33
+"174","Therapists","care & education",26226,29081,2855,0.1089,"UK","UKP",30684.42,34024.77,3340.35
+"175","Podiatrists","care & education",27624,30559,2935,0.1062,"UK","UKP",32320.08,35754.03,3433.95
+"176","Nurses","care & education",26291,31816,5525,0.2101,"UK","UKP",30760.47,37224.72,6464.25
+"177","Nurses & midwives","care & education",26475,31841,5366,0.2027,"UK","UKP",30975.75,37253.97,6278.22
+"178","Social workers","care & education",29898,32286,2388,0.0799,"UK","UKP",34980.66,37774.62,2793.96
+"179","Further education","care & education",27121,32378,5257,0.1938,"UK","UKP",31731.57,37882.26,6150.69
+"180","Primary education","care & education",29665,35127,5462,0.1841,"UK","UKP",34708.05,41098.59,6390.54
+"181","Teaching & education","care & education",30307,36971,6664,0.2199,"UK","UKP",35459.19,43256.07,7796.88
+"182","Secondary education","care & education",31683,37124,5441,0.1717,"UK","UKP",37069.11,43435.08,6365.96999999999
+"183","Health professionals","care & education",27524,38199,10675,0.3878,"UK","UKP",32203.08,44692.83,12489.75
+"184","Higher education","care & education",35728,44904,9176,0.2568,"UK","UKP",41801.76,52537.68,10735.92
+"185","Education seniors","care & education",46138,55357,9219,0.1998,"UK","UKP",53981.46,64767.69,10786.23
+"186","Medical practitioners","care & education",44955,78025,33070,0.7356,"UK","UKP",52597.35,91289.25,38691.9
+"187","Creative & media","creative & media",26376,31580,5204,0.2119,"UK","UKP",30859.92,36948.6,6088.68
+"188","Culture & media","creative & media",16093,24227,8134,0.5054,"UK","UKP",18828.81,28345.59,9516.78
+"189","Graphic designers","creative & media",22227,25610,3383,0.1522,"UK","UKP",26005.59,29963.7,3958.11
+"190","Arts & media","creative & media",22738,30197,7459,0.328,"UK","UKP",26603.46,35330.49,8727.03
+"191","Designers","creative & media",25025,30506,5481,0.219,"UK","UKP",29279.25,35692.02,6412.77
+"192","Arts producers","creative & media",32031,37920,5889,0.1839,"UK","UKP",37476.27,44366.4,6890.13
+"193","Public relations","creative & media",25536,28820,3284,0.1286,"UK","UKP",29877.12,33719.4,3842.28
+"194","Web design","creative & media",26180,28990,2810,0.1073,"UK","UKP",30630.6,33918.3,3287.7
+"195","Media professionals","creative & media",28585,32236,3651,0.1277,"UK","UKP",33444.45,37716.12,4271.67
+"196","Business & media","creative & media",31168,37212,6044,0.1939,"UK","UKP",36466.56,43538.04,7071.48
+"197","Advertising","creative & media",34179,40084,5905,0.1728,"UK","UKP",39989.43,46898.28,6908.85
+"198","Law & justice","law & justice",28875,31795,2920,0.1193,"UK","UKP",33783.75,37200.15,3416.39999999999
+"199","Community police","law & justice",25500,26282,782,0.0307,"UK","UKP",29835,30749.94,914.939999999999
+"200","Prison service","law & justice",22634,28486,5852,0.2585,"UK","UKP",26481.78,33328.62,6846.84
+"201","Legal associate","law & justice",22645,31142,8497,0.3752,"UK","UKP",26494.65,36436.14,9941.49
+"202","Protective services","law & justice",30464,34016,3552,0.1166,"UK","UKP",35642.88,39798.72,4155.84
+"203","Police officers","law & justice",34715,40275,5560,0.1602,"UK","UKP",40616.55,47121.75,6505.2
+"204","Senior police","law & justice",59871,57701,-2170,-0.0362,"UK","UKP",70049.07,67510.17,-2538.89999999999
+"205","Probation officers","law & justice",29767,31777,2010,0.0675,"UK","UKP",34827.39,37179.09,2351.7
+"206","Solicitors","law & justice",37734,42998,5264,0.1395,"UK","UKP",44148.78,50307.66,6158.88
+"207","Traffic wardens","law & justice",20023,18630,-1393,-0.0696,"UK","UKP",23426.91,21797.1,-1629.81
+"208","Security","law & justice",19426,20096,670,0.0345,"UK","UKP",22728.42,23512.32,783.900000000001
+"209","Debt collectors","law & justice",14845,18338,3493,0.2353,"UK","UKP",17368.65,21455.46,4086.81
+"210","Manual work","manual work",16513,22529,6015,0.3809,"UK","UKP",19320.21,26358.93,7038.72
+"211","Packers","manual work",14343,17865,3522,0.2456,"UK","UKP",16781.31,20902.05,4120.74
+"212","Agricultural","manual work",11925,18458,6533,0.5478,"UK","UKP",13952.25,21595.86,7643.61
+"213","Plant operatives","manual work",14272,18894,4622,0.3239,"UK","UKP",16698.24,22105.98,5407.74
+"214","Trades","manual work",14115,19061,4946,0.3504,"UK","UKP",16514.55,22301.37,5786.82
+"215","Construction","manual work",18696,20442,1746,0.0934,"UK","UKP",21874.32,23917.14,2042.82
+"216","Sewing machinists","manual work",13510,17689,4179,0.3093,"UK","UKP",15806.7,20696.13,4889.43
+"217","Factory operatives","manual work",14526,18480,3954,0.2722,"UK","UKP",16995.42,21621.6,4626.18
+"218","Process operatives","manual work",14688,20362,5674,0.3863,"UK","UKP",17184.96,23823.54,6638.58
+"219","Metal working","manual work",16285,20943,4658,0.286,"UK","UKP",19053.45,24503.31,5449.86
+"220","Electrical assembly","manual work",17144,21370,4226,0.2465,"UK","UKP",20058.48,25002.9,4944.42
+"221","AS A WHOLE","manual work",15405,22698,7293,0.4734,"UK","UKP",18023.85,26556.66,8532.81
+"222","Assemblers","manual work",15980,23391,7411,0.4638,"UK","UKP",18696.6,27367.47,8670.87
+"223","Print assistants","manual work",16120,23547,7427,0.4607,"UK","UKP",18860.4,27549.99,8689.59
+"224","Construction manager","manual work",23216,34799,11583,0.4989,"UK","UKP",27162.72,40714.83,13552.11
+"225","Skilled agricultural","manual work",15138,18305,3167,0.2092,"UK","UKP",17711.46,21416.85,3705.39
+"226","Textiles & printing","manual work",12949,18769,5820,0.4495,"UK","UKP",15150.33,21959.73,6809.4
+"227","Furniture makers","manual work",20081,20276,195,0.0097,"UK","UKP",23494.77,23722.92,228.150000000001
+"228","Crafts & decorators","manual work",15287,20457,5170,0.3382,"UK","UKP",17885.79,23934.69,6048.9
+"229","Skilled trades","manual work",14754,20684,5930,0.4019,"UK","UKP",17262.18,24200.28,6938.1
+"230","Printing & binding","manual work",14190,20927,6737,0.4748,"UK","UKP",16602.3,24484.59,7882.29
+"231","Textiles","manual work",12938,21862,8924,0.6898,"UK","UKP",15137.46,25578.54,10441.08
+"232","Leatherwork","manual work",14146,22779,8633,0.6103,"UK","UKP",16550.82,26651.43,10100.61
+"233","Printing trades","manual work",14734,23569,8835,0.5996,"UK","UKP",17238.78,27575.73,10336.95
+"234","Metalwork","manual work",15074,25544,10470,0.6946,"UK","UKP",17636.58,29886.48,12249.9
+"235","Instrument making","manual work",17952,28088,10136,0.5646,"UK","UKP",21003.84,32862.96,11859.12
+"236","Electrical trades","manual work",23358,28238,4880,0.2089,"UK","UKP",27328.86,33038.46,5709.6
+"237","Electricians","manual work",24102,29666,5564,0.2309,"UK","UKP",28199.34,34709.22,6509.88
+"238","Trade supervisors","manual work",27448,33642,6194,0.2257,"UK","UKP",32114.16,39361.14,7246.98
+"239","Sales & serving others","sales & serving others",18469,22765,4296,0.2812,"UK","UKP",21608.73,26635.05,5026.32
+"240","Caretakers","sales & serving others",12680,17532,4852,0.3826,"UK","UKP",14835.6,20512.44,5676.84
+"241","Insurance clerks","sales & serving others",18654,21374,2720,0.1458,"UK","UKP",21825.18,25007.58,3182.4
+"242","Bank & post office","sales & serving others",16533,21590,5057,0.3059,"UK","UKP",19343.61,25260.3,5916.69
+"243","Careers advisors","sales & serving others",22207,25789,3582,0.1613,"UK","UKP",25982.19,30173.13,4190.94
+"244","Vocational trainers","sales & serving others",22706,27341,4635,0.2041,"UK","UKP",26566.02,31988.97,5422.95
+"245","Marketing associates","sales & serving others",23725,29316,5591,0.2357,"UK","UKP",27758.25,34299.72,6541.47
+"246","Public services","sales & serving others",25287,30302,5015,0.1983,"UK","UKP",29585.79,35453.34,5867.55
+"247","Fire service","sales & serving others",29782,30968,1186,0.0398,"UK","UKP",34844.94,36232.56,1387.62
+"248","Buyers","sales & serving others",27010,32851,5841,0.2163,"UK","UKP",31601.7,38435.67,6833.97
+"249","Health & safety","sales & serving others",29837,34421,4584,0.1536,"UK","UKP",34909.29,40272.57,5363.28
+"250","Insurance","sales & serving others",28208,35113,6905,0.2448,"UK","UKP",33003.36,41082.21,8078.85
+"251","Sales & marketing","sales & serving others",28000,38261,10261,0.3665,"UK","UKP",32760,44765.37,12005.37
+"252","Accounts managers","sales & serving others",28360,42512,14152,0.499,"UK","UKP",33181.2,49739.04,16557.84
+"253","Sales accounts","sales & serving others",35449,45359,9910,0.2796,"UK","UKP",41475.33,53070.03,11594.7
+"254","Housekeeping","sales & serving others",11330,17101,5771,0.5094,"UK","UKP",13256.1,20008.17,6752.07
+"255","Undertakers","sales & serving others",15672,17586,1914,0.1221,"UK","UKP",18336.24,20575.62,2239.38
+"256","Cleaning managers","sales & serving others",12292,18490,6198,0.5042,"UK","UKP",14381.64,21633.3,7251.66
+"257","Leisure & travel","sales & serving others",14308,18941,4633,0.3238,"UK","UKP",16740.36,22160.97,5420.61
+"258","Travel agents","sales & serving others",14974,22505,7531,0.5029,"UK","UKP",17519.58,26330.85,8811.27
+"259","Rail travel clerks","sales & serving others",26512,31525,5013,0.1891,"UK","UKP",31019.04,36884.25,5865.21
+"260","Bar staff","sales & serving others",5588,7570,1982,0.3547,"UK","UKP",6537.96,8856.9,2318.94
+"261","Cleaners & domestics","sales & serving others",6063,8834,2771,0.457,"UK","UKP",7093.71,10335.78,3242.07
+"262","Elementary services","sales & serving others",7100,9151,2051,0.2889,"UK","UKP",8307,10706.67,2399.67
+"263","Kitchen & catering","sales & serving others",7785,9919,2134,0.2741,"UK","UKP",9108.45,11605.23,2496.78
+"264","Cleaning occupations","sales & serving others",6244,11686,5442,0.8716,"UK","UKP",7305.48,13672.62,6367.14
+"265","Shelf fillers","sales & serving others",10001,13312,3311,0.3311,"UK","UKP",11701.17,15575.04,3873.87
+"266","Valeters","sales & serving others",15183,14632,-551,-0.0363,"UK","UKP",17764.11,17119.44,-644.670000000002
+"267","Storage","sales & serving others",14263,18676,4413,0.3094,"UK","UKP",16687.71,21850.92,5163.21
+"268","Refuse","sales & serving others",12571,19289,6718,0.5344,"UK","UKP",14708.07,22568.13,7860.06
+"269","Postal workers","sales & serving others",16303,22974,6671,0.4092,"UK","UKP",19074.51,26879.58,7805.07
+"270","Restaurant managers","sales & serving others",19138,22421,3283,0.1715,"UK","UKP",22391.46,26232.57,3841.11
+"271","Hospitality managers","sales & serving others",21102,25036,3934,0.1864,"UK","UKP",24689.34,29292.12,4602.78
+"272","Van drivers","sales & serving others",12572,18214,5642,0.4488,"UK","UKP",14709.24,21310.38,6601.14
+"273","Lorry drivers","sales & serving others",14567,21741,7174,0.4925,"UK","UKP",17043.39,25436.97,8393.58
+"274","Bus & coach drivers","sales & serving others",18558,22081,3523,0.1898,"UK","UKP",21712.86,25834.77,4121.91
+"275","Drivers","sales & serving others",41793,40498,-1295,-0.031,"UK","UKP",48897.81,47382.66,-1515.15
+"276","Train & tram drivers","sales & serving others",48422,47943,-479,-0.0099,"UK","UKP",56653.74,56093.31,-560.43
+"277","Welfare officers","sales & serving others",29070,25719,-3351,-0.1153,"UK","UKP",34011.9,30091.23,-3920.67
+"278","Pharmacists","sales & serving others",34039,44554,10515,0.3089,"UK","UKP",39825.63,52128.18,12302.55
+"279","Cashiers","sales & serving others",7908,9958,2050,0.2592,"UK","UKP",9252.36,11650.86,2398.5
+"280","Sales assistants","sales & serving others",7847,11720,3873,0.4936,"UK","UKP",9180.99,13712.4,4531.41
+"281","Retail cashiers","sales & serving others",8081,12029,3948,0.4886,"UK","UKP",9454.77,14073.93,4619.16
+"282","Sales","sales & serving others",8496,13289,4793,0.5641,"UK","UKP",9940.32,15548.13,5607.81
+"283","Call centres","sales & serving others",14346,15459,1113,0.0776,"UK","UKP",16784.82,18087.03,1302.21
+"284","Customer services","sales & serving others",13669,17485,3816,0.2792,"UK","UKP",15992.73,20457.45,4464.72
+"285","Sales supervisors","sales & serving others",15953,19138,3185,0.1996,"UK","UKP",18665.01,22391.46,3726.45
+"286","Car sales","sales & serving others",16659,20804,4145,0.2488,"UK","UKP",19491.03,24340.68,4849.65
+"287","Communications","sales & serving others",24321,29496,5175,0.2128,"UK","UKP",28455.57,34510.32,6054.75
+"288","Service managers","sales & serving others",23612,29789,6177,0.2616,"UK","UKP",27626.04,34853.13,7227.09
+"289","Cooks","sales & serving others",9675,12401,2726,0.2818,"UK","UKP",11319.75,14509.17,3189.42
+"290","Chefs","sales & serving others",15785,17567,1782,0.1129,"UK","UKP",18468.45,20553.39,2084.94
+"291","Food preparation","sales & serving others",12579,17598,5019,0.399,"UK","UKP",14717.43,20589.66,5872.23
+"292","Bakers","sales & serving others",14161,17922,3761,0.2656,"UK","UKP",16568.37,20968.74,4400.37
+"293","Catering managers","sales & serving others",15705,19008,3303,0.2103,"UK","UKP",18374.85,22239.36,3864.51
+"294","Vehicle trades","sales & serving others",23120,25271,2151,0.093,"UK","UKP",27050.4,29567.07,2516.67
+"295","Science, tech & engineering","science, tech & engineering",27826,34185,6360,0.2537,"UK","UKP",32556.42,39996.45,7440.03
+"296","Conservation workers","science, tech & engineering",22106,23488,1382,0.0625,"UK","UKP",25864.02,27480.96,1616.94
+"297","Lab technicians","science, tech & engineering",16471,24094,7623,0.4628,"UK","UKP",19271.07,28189.98,8918.91
+"298","Pharmaceutical techs","science, tech & engineering",19017,25958,6941,0.365,"UK","UKP",22249.89,30370.86,8120.97
+"299","Town planners","science, tech & engineering",29183,27725,-1458,-0.05,"UK","UKP",34144.11,32438.25,-1705.86
+"300","IT technicians","science, tech & engineering",23927,28435,4508,0.1884,"UK","UKP",27994.59,33268.95,5274.36
+"301","Medical technicians","science, tech & engineering",20201,28853,8652,0.4283,"UK","UKP",23635.17,33758.01,10122.84
+"302","IT user support","science, tech & engineering",23316,28922,5606,0.2404,"UK","UKP",27279.72,33838.74,6559.02
+"303","Science technicians","science, tech & engineering",19387,29271,9884,0.5098,"UK","UKP",22682.79,34247.07,11564.28
+"304","Production techs","science, tech & engineering",22168,30934,8766,0.3954,"UK","UKP",25936.56,36192.78,10256.22
+"305","Engineering techs","science, tech & engineering",26751,33725,6974,0.2607,"UK","UKP",31298.67,39458.25,8159.58
+"306","Animal control","science, tech & engineering",14880,19210,4330,0.291,"UK","UKP",17409.6,22475.7,5066.1
+"307","Routine inspectors","science, tech & engineering",18033,25031,6998,0.3881,"UK","UKP",21098.61,29286.27,8187.66
+"308","Machine operatives","science, tech & engineering",13814,25280,11466,0.83,"UK","UKP",16162.38,29577.6,13415.22
+"309","Chemical operatives","science, tech & engineering",15840,25768,9928,0.6268,"UK","UKP",18532.8,30148.56,11615.76
+"310","Environment","science, tech & engineering",27779,30093,2314,0.0833,"UK","UKP",32501.43,35208.81,2707.38
+"311","Conservation","science, tech & engineering",25520,30143,4623,0.1812,"UK","UKP",29858.4,35267.31,5408.91
+"312","Medical radiographer","science, tech & engineering",29027,32519,3492,0.1203,"UK","UKP",33961.59,38047.23,4085.64
+"313","Environmental health","science, tech & engineering",29714,32551,2837,0.0955,"UK","UKP",34765.38,38084.67,3319.29
+"314","Town planning","science, tech & engineering",25029,32929,7900,0.3156,"UK","UKP",29283.93,38526.93,9243
+"315","Chartered surveyors","science, tech & engineering",28293,34534,6241,0.2206,"UK","UKP",33102.81,40404.78,7301.97
+"316","Quality control","science, tech & engineering",31974,35577,3603,0.1127,"UK","UKP",37409.58,41625.09,4215.51
+"317","Architects","science, tech & engineering",29858,36006,6148,0.2059,"UK","UKP",34933.86,42127.02,7193.16
+"318","Social scientists","science, tech & engineering",32007,36268,4261,0.1331,"UK","UKP",37448.19,42433.56,4985.37
+"319","Natural scientists","science, tech & engineering",31500,36367,4867,0.1545,"UK","UKP",36855,42549.39,5694.39
+"320","Quality & regulatory","science, tech & engineering",34343,36867,2524,0.0735,"UK","UKP",40181.31,43134.39,2953.08
+"321","Production engineers","science, tech & engineering",31767,37164,5397,0.1699,"UK","UKP",37167.39,43481.88,6314.49
+"322","Biological sciences","science, tech & engineering",32039,38102,6063,0.1892,"UK","UKP",37485.63,44579.34,7093.71
+"323","Design engineers","science, tech & engineering",29415,38419,9004,0.3061,"UK","UKP",34415.55,44950.23,10534.68
+"324","Quality assurance","science, tech & engineering",35054,38820,3766,0.1074,"UK","UKP",41013.18,45419.4,4406.21999999999
+"325","Civil engineers","science, tech & engineering",30472,38906,8434,0.2768,"UK","UKP",35652.24,45520.02,9867.78
+"326","Engineering","science, tech & engineering",32165,38972,6807,0.2116,"UK","UKP",37633.05,45597.24,7964.19
+"327","Quantity surveyors","science, tech & engineering",32099,39773,7674,0.2391,"UK","UKP",37555.83,46534.41,8978.58
+"328","Science & technology","science, tech & engineering",32500,39837,7337,0.2258,"UK","UKP",38025,46609.29,8584.28999999999
+"329","Programmers","science, tech & engineering",33973,40145,6172,0.1817,"UK","UKP",39748.41,46969.65,7221.24
+"330","IT & telecoms","science, tech & engineering",34215,41148,6933,0.2026,"UK","UKP",40031.55,48143.16,8111.61
+"331","Systems & analysis","science, tech & engineering",35935,42053,6118,0.1703,"UK","UKP",42043.95,49202.01,7158.06
+"332","Electrical engineers","science, tech & engineering",42599,43382,783,0.0184,"UK","UKP",49840.83,50756.94,916.110000000001
+"333","IT specialists","science, tech & engineering",34347,45775,11428,0.3327,"UK","UKP",40185.99,53556.75,13370.76
+"334","Project managers","science, tech & engineering",34306,46272,11966,0.3488,"UK","UKP",40138.02,54138.24,14000.22
+"335","IT project managers","science, tech & engineering",38812,51863,13051,0.3363,"UK","UKP",45410.04,60679.71,15269.67
+"336","Aircraft maintenance","science, tech & engineering",25705,34575,8870,0.3451,"UK","UKP",30074.85,40452.75,10377.9
+"337","Inspectors","science, tech & engineering",23135,30023,6888,0.2977,"UK","UKP",27067.95,35126.91,8058.96
+"338","Senior managers & execs","senior managers & execs",32171,41028,8857,0.2823,"UK","UKP",37640.07,48002.76,10362.69
+"339","Credit controllers","senior managers & execs",19783,22746,2963,0.1498,"UK","UKP",23146.11,26612.82,3466.71
+"340","Finance officers","senior managers & execs",21734,23285,1551,0.0714,"UK","UKP",25428.78,27243.45,1814.67
+"341","Office supervisors","senior managers & execs",21563,26939,5376,0.2493,"UK","UKP",25228.71,31518.63,6289.92
+"342","Office managers","senior managers & execs",25527,33045,7518,0.2945,"UK","UKP",29866.59,38662.65,8796.06
+"343","Business","senior managers & execs",23023,30363,7340,0.3188,"UK","UKP",26936.91,35524.71,8587.8
+"344","Business execs","senior managers & execs",23615,32000,8385,0.3551,"UK","UKP",27629.55,37440,9810.45
+"345","Business associates","senior managers & execs",26332,36000,9668,0.3672,"UK","UKP",30808.44,42120,11311.56
+"346","Finance & business","senior managers & execs",26484,36481,9997,0.3775,"UK","UKP",30986.28,42682.77,11696.49
+"347","Finance & investing","senior managers & execs",28609,37370,8761,0.3062,"UK","UKP",33472.53,43722.9,10250.37
+"348","Taxation experts","senior managers & execs",36155,42357,6202,0.1715,"UK","UKP",42301.35,49557.69,7256.34
+"349","Finance technicians","senior managers & execs",28115,46664,18549,0.6598,"UK","UKP",32894.55,54596.88,21702.33
+"350","Agricultural manager","senior managers & execs",26000,26170,170,0.0065,"UK","UKP",30420,30618.9,198.900000000001
+"351","Leisure managers","senior managers & execs",24949,26175,1226,0.0491,"UK","UKP",29190.33,30624.75,1434.42
+"352","Hotel managers","senior managers & execs",18637,26785,8148,0.4372,"UK","UKP",21805.29,31338.45,9533.16
+"353","Retail managers","senior managers & execs",19391,28658,9267,0.4779,"UK","UKP",22687.47,33529.86,10842.39
+"354","Warehouse managers","senior managers & execs",23489,29454,5965,0.2539,"UK","UKP",27482.13,34461.18,6979.05
+"355","Managers","senior managers & execs",24960,29968,5008,0.2006,"UK","UKP",29203.2,35062.56,5859.36
+"356","Logistics managers","senior managers & execs",25174,31894,6720,0.2669,"UK","UKP",29453.58,37315.98,7862.4
+"357","Care managers","senior managers & execs",28171,32895,4724,0.1677,"UK","UKP",32960.07,38487.15,5527.07999999999
+"358","Proprietors","senior managers & execs",26233,34021,7788,0.2969,"UK","UKP",30692.61,39804.57,9111.96
+"359","Health proprietors","senior managers & execs",27943,34328,6385,0.2285,"UK","UKP",32693.31,40163.76,7470.45
+"360","Waste managers","senior managers & execs",32581,37669,5088,0.1562,"UK","UKP",38119.77,44072.73,5952.96
+"361","Practice managers","senior managers & execs",27260,38522,11262,0.4131,"UK","UKP",31894.2,45070.74,13176.54
+"362","Production managers","senior managers & execs",32906,42169,9263,0.2815,"UK","UKP",38500.02,49337.73,10837.71
+"363","Corporate directors","senior managers & execs",32998,43913,10915,0.3308,"UK","UKP",38607.66,51378.21,12770.55
+"364","Health directors","senior managers & execs",38268,45056,6788,0.1774,"UK","UKP",44773.56,52715.52,7941.96
+"365","Functional managers","senior managers & execs",31133,46290,15157,0.4868,"UK","UKP",36425.61,54159.3,17733.69
+"366","Healthcare managers","senior managers & execs",40345,46929,6584,0.1632,"UK","UKP",47203.65,54906.93,7703.28000000001
+"367","Purchasing managers","senior managers & execs",41296,48115,6819,0.1651,"UK","UKP",48316.32,56294.55,7978.23
+"368","HR managers","senior managers & execs",39248,50516,11268,0.2871,"UK","UKP",45920.16,59103.72,13183.56
+"369","Protective services","senior managers & execs",46099,54879,8780,0.1905,"UK","UKP",53935.83,64208.43,10272.6
+"370","Functional directors","senior managers & execs",42228,60000,17772,0.4209,"UK","UKP",49406.76,70200,20793.24
+"371","IT directors","senior managers & execs",63328,60215,-3113,-0.0492,"UK","UKP",74093.76,70451.55,-3642.20999999999
+"372","Bank managers","senior managers & execs",37129,63133,26004,0.7004,"UK","UKP",43440.93,73865.61,30424.68
+"373","Financial managers","senior managers & execs",41662,66000,24338,0.5842,"UK","UKP",48744.54,77220,28475.46
+"374","Sales directors","senior managers & execs",58125,69417,11292,0.1943,"UK","UKP",68006.25,81217.89,13211.64
+"375","CEOs","senior managers & execs",59048,86551,27503,0.4658,"UK","UKP",69086.16,101264.67,32178.51
+"376","Business & research","senior managers & execs",31623,40579,8956,0.2832,"UK","UKP",36998.91,47477.43,10478.52
+"377","Business analysts","senior managers & execs",33555,40599,7044,0.2099,"UK","UKP",39259.35,47500.83,8241.48
+"378","Economists","senior managers & execs",42405,44133,1728,0.0407,"UK","UKP",49613.85,51635.61,2021.75999999999
+"379","Valuers & assessors","senior managers & execs",21883,29872,7989,0.3651,"UK","UKP",25603.11,34950.24,9347.13
